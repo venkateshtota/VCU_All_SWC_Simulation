@@ -1,0 +1,52 @@
+# Auto-generated
+config: 
+ ac_erase = 0
+ ac_write = 0
+ call_cycle = 0.0
+ default_mode = MEMIF_MODE_SLOW
+ job_end_notification = 
+ job_error_notification = 
+ max_read_fast_mode = 
+ max_read_normal_mode = 
+ max_write_fast_mode = 
+ max_write_normal_mode = 
+ protection = 0
+ dem_event_parameter_refs = FLS_E_COMPARE_FAILED
+ spi_references = 
+ dem_refs: 
+  fls_e_compare_failed = 
+  fls_e_erase_failed = 
+  fls_e_read_failed = 
+  fls_e_unexpected_flash_id = 
+  fls_e_write_failed = 
+ blocks: 
+  0: FlsSector_0
+   number_of_sectors = 6
+   page_size = 8
+   size = 1024
+   start_address = 0
+general: 
+ ac_load_on_job_start = false
+ base_address = 
+ cancel_api = false
+ compare_api = true
+ dev_error_detect = false
+ driver_index = 0
+ get_job_result_api = true
+ get_status_api = true
+ set_mode_api = false
+ total_size = 
+ use_interrupts = false
+ version_info_api = true
+ blank_check_api = false
+published_information: 
+ ac_location_erase = 
+ ac_location_write = 
+ ac_size_erase = 
+ ac_size_write = 
+ erase_time = 
+ erased_value = 255
+ expected_hw_id = 
+ specified_erase_cycles = 
+ write_time = 
+

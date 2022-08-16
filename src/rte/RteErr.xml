@@ -1,0 +1,271 @@
+<RTEGEN>
+  <VERSION-INFO>
+    <RTEGen>RTA-RTE V7.5.0</RTEGen>
+  </VERSION-INFO>
+  <MESSAGES>
+    <MESSAGE SEVERITY="WARNING">
+      <CODE>W003064</CODE>
+      <FILE>C:/Users/mis1mi/Documents/projects/nevs/mode_management/ParkBrake/ecu_config/bsw/gen/swcd/BswM_Cfg_SWCD.arxml</FILE>
+      <LINE>47</LINE>
+      <LOCATION>/AUTOSAR_BswM/SwComponentTypes/BswM/IB_BswM/OPIE_BswMSwcGenericRequest_Server</LOCATION>
+      <TEXT>Event not referenced by an EventToTaskMapping for the instance /RTE/Rte/CPT_BswM.</TEXT>
+    </MESSAGE>
+    <MESSAGE SEVERITY="INFO">
+      <CODE>I002164</CODE>
+      <FILE>unknown</FILE>
+      <LINE>unknown</LINE>
+      <LOCATION/>
+      <TEXT>Expected ON-TRANSITION-VALUE element missing for ModeDeclarationGroup &apos;/MSI_ShutDown/MDG/MDG_ShutDown&apos;, using the calculated value &apos;2&apos;.</TEXT>
+    </MESSAGE>
+    <MESSAGE SEVERITY="WARNING">
+      <CODE>W002150</CODE>
+      <FILE>C:/Users/mis1mi/Documents/projects/nevs/mode_management/ParkBrake/ecu_config/bsw/gen/bswmd/NvM_Static_Cfg_BSWMD.arxml</FILE>
+      <LINE>16</LINE>
+      <LOCATION>/AUTOSAR_NvM/SwcBswMappings/NvM</LOCATION>
+      <TEXT>No SwcInstance mapped to the ECU references this SwcBswMapping. RTA-RTE used SwcInstance &apos;/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_NvM&apos; because it was the only SwcInstance that uses the referenced Internalbehavior &apos;/AUTOSAR_NvM/SwComponentTypes/NvM/NVRAMManager&apos;.</TEXT>
+    </MESSAGE>
+    <MESSAGE SEVERITY="WARNING">
+      <CODE>W002150</CODE>
+      <FILE>C:/Users/mis1mi/Documents/projects/nevs/mode_management/ParkBrake/ecu_config/bsw/gen/swcd/BswM_Cfg_SWCD.arxml</FILE>
+      <LINE>131</LINE>
+      <LOCATION>/AUTOSAR_BswM/SwcBswMappings/BswM</LOCATION>
+      <TEXT>No SwcInstance mapped to the ECU references this SwcBswMapping. RTA-RTE used SwcInstance &apos;/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_BswM&apos; because it was the only SwcInstance that uses the referenced Internalbehavior &apos;/AUTOSAR_BswM/SwComponentTypes/BswM/IB_BswM&apos;.</TEXT>
+    </MESSAGE>
+    <MESSAGE SEVERITY="WARNING">
+      <CODE>W002150</CODE>
+      <FILE>C:/Users/mis1mi/Documents/projects/nevs/mode_management/ParkBrake/ecu_config/bsw/gen/swcd/ComM_Cfg_SWCD.arxml</FILE>
+      <LINE>125</LINE>
+      <LOCATION>/AUTOSAR_ComM/SwcBswMappings/SwcBswmapping/SwcBswMapping_ComM</LOCATION>
+      <TEXT>No SwcInstance mapped to the ECU references this SwcBswMapping. RTA-RTE used SwcInstance &apos;/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_ComM&apos; because it was the only SwcInstance that uses the referenced Internalbehavior &apos;/AUTOSAR_ComM/SwComponentTypes/ComM/ComM_Int&apos;.</TEXT>
+    </MESSAGE>
+    <MESSAGE SEVERITY="WARNING">
+      <CODE>W002151</CODE>
+      <FILE>C:/Users/mis1mi/Documents/projects/nevs/mode_management/ParkBrake/ecu_config/bsw/gen/swcd/ComM_Cfg_SWCD.arxml</FILE>
+      <LINE>125</LINE>
+      <LOCATION>/AUTOSAR_ComM/SwcBswMappings/SwcBswmapping/SwcBswMapping_ComM</LOCATION>
+      <TEXT>No BswImplementation mapped to the ECU references this SwcBswMapping. RTA-RTE used BswImplementation &apos;/AUTOSAR_ComM/BswImplementations/ComM&apos; because it was the only BswImplementation that uses the referenced Internalbehavior &apos;/AUTOSAR_ComM/BswModuleDescriptions/ComM/BswInternalBehavior&apos;.</TEXT>
+    </MESSAGE>
+    <MESSAGE SEVERITY="WARNING">
+      <CODE>W001205</CODE>
+      <FILE>C:/Users/mis1mi/Documents/projects/nevs/mode_management/ParkBrake/ecu_config/bsw/gen/swcd/ComM_Cfg_SWCD.arxml</FILE>
+      <LINE>41</LINE>
+      <LOCATION>/AUTOSAR_ComM/SwComponentTypes/ComM</LOCATION>
+      <TEXT>Software-component type &apos;ComM&apos; does not have any provided or required ports.</TEXT>
+    </MESSAGE>
+    <MESSAGE SEVERITY="INFO">
+      <CODE>I007801</CODE>
+      <FILE>C:/Users/mis1mi/Documents/projects/nevs/mode_management/ParkBrake/ecu_config/bsw/gen/swcd/BswM_Cfg_SWCD.arxml</FILE>
+      <LINE>22</LINE>
+      <LOCATION>/AUTOSAR_BswM/SwComponentTypes/BswM/PP_BswMSwcGenericRequest</LOCATION>
+      <TEXT>Provided port &apos;BswM.PP_BswMSwcGenericRequest&apos; of SW-C instance &apos;/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_BswM&apos; is not connected to a requiring port or there are no OperationInvokedEvents that reference the port. The servers for operations in the categorizing interface will never be activated.</TEXT>
+    </MESSAGE>
+    <MESSAGE SEVERITY="INFO">
+      <CODE>I007801</CODE>
+      <FILE>C:/Users/mis1mi/Documents/projects/nevs/mode_management/ParkBrake/ecu_config/bsw/gen/swcd/EcuM_Cfg_SWCD.arxml</FILE>
+      <LINE>20</LINE>
+      <LOCATION>/AUTOSAR_EcuM/SwComponentTypes/EcuM/bootTarget</LOCATION>
+      <TEXT>Provided port &apos;EcuM.bootTarget&apos; of SW-C instance &apos;/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_EcuM&apos; is not connected to a requiring port or there are no OperationInvokedEvents that reference the port. The servers for operations in the categorizing interface will never be activated.</TEXT>
+    </MESSAGE>
+    <MESSAGE SEVERITY="INFO">
+      <CODE>I007801</CODE>
+      <FILE>C:/Users/mis1mi/Documents/projects/nevs/mode_management/ParkBrake/ecu_config/bsw/gen/swcd/EcuM_Cfg_SWCD.arxml</FILE>
+      <LINE>16</LINE>
+      <LOCATION>/AUTOSAR_EcuM/SwComponentTypes/EcuM/shutdownTarget</LOCATION>
+      <TEXT>Provided port &apos;EcuM.shutdownTarget&apos; of SW-C instance &apos;/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_EcuM&apos; is not connected to a requiring port or there are no OperationInvokedEvents that reference the port. The servers for operations in the categorizing interface will never be activated.</TEXT>
+    </MESSAGE>
+    <MESSAGE SEVERITY="INFO">
+      <CODE>I007801</CODE>
+      <FILE>C:/Users/mis1mi/Documents/projects/nevs/mode_management/ParkBrake/ecu_config/bsw/gen/swcd/NvM_Cfg_SWCD.arxml</FILE>
+      <LINE>355</LINE>
+      <LOCATION>/AUTOSAR_NvM/SwComponentTypes/NvM/NvM_ConfigId</LOCATION>
+      <TEXT>Provided port &apos;NvM.NvM_ConfigId&apos; of SW-C instance &apos;/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_NvM&apos; is not connected to a requiring port or there are no OperationInvokedEvents that reference the port. The servers for operations in the categorizing interface will never be activated.</TEXT>
+    </MESSAGE>
+    <MESSAGE SEVERITY="INFO">
+      <CODE>I007801</CODE>
+      <FILE>C:/Users/mis1mi/Documents/projects/nevs/mode_management/ParkBrake/ecu_config/bsw/gen/swcd/NvM_Cfg_SWCD.arxml</FILE>
+      <LINE>301</LINE>
+      <LOCATION>/AUTOSAR_NvM/SwComponentTypes/NvM/NvM_MultiBlock</LOCATION>
+      <TEXT>Provided port &apos;NvM.NvM_MultiBlock&apos; of SW-C instance &apos;/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_NvM&apos; is not connected to a requiring port or there are no OperationInvokedEvents that reference the port. The servers for operations in the categorizing interface will never be activated.</TEXT>
+    </MESSAGE>
+    <MESSAGE SEVERITY="INFO">
+      <CODE>I007800</CODE>
+      <FILE>unknown</FILE>
+      <LINE>unknown</LINE>
+      <LOCATION/>
+      <TEXT>Optimizing server &apos;/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_NvM&apos; port &apos;NvM_NativeBlock_2&apos; operation &apos;EraseBlock&apos; by eliding inter-task and inter-ECU handling.</TEXT>
+    </MESSAGE>
+    <MESSAGE SEVERITY="INFO">
+      <CODE>I007800</CODE>
+      <FILE>unknown</FILE>
+      <LINE>unknown</LINE>
+      <LOCATION/>
+      <TEXT>Optimizing server &apos;/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_NvM&apos; port &apos;NvM_NativeBlock_2&apos; operation &apos;GetDataIndex&apos; by eliding inter-task and inter-ECU handling.</TEXT>
+    </MESSAGE>
+    <MESSAGE SEVERITY="INFO">
+      <CODE>I007800</CODE>
+      <FILE>unknown</FILE>
+      <LINE>unknown</LINE>
+      <LOCATION/>
+      <TEXT>Optimizing server &apos;/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_NvM&apos; port &apos;NvM_NativeBlock_2&apos; operation &apos;GetErrorStatus&apos; by eliding inter-task and inter-ECU handling.</TEXT>
+    </MESSAGE>
+    <MESSAGE SEVERITY="INFO">
+      <CODE>I007800</CODE>
+      <FILE>unknown</FILE>
+      <LINE>unknown</LINE>
+      <LOCATION/>
+      <TEXT>Optimizing server &apos;/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_NvM&apos; port &apos;NvM_NativeBlock_2&apos; operation &apos;InvalidateNvBlock&apos; by eliding inter-task and inter-ECU handling.</TEXT>
+    </MESSAGE>
+    <MESSAGE SEVERITY="INFO">
+      <CODE>I007800</CODE>
+      <FILE>unknown</FILE>
+      <LINE>unknown</LINE>
+      <LOCATION/>
+      <TEXT>Optimizing server &apos;/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_NvM&apos; port &apos;NvM_NativeBlock_2&apos; operation &apos;ReadBlock&apos; by eliding inter-task and inter-ECU handling.</TEXT>
+    </MESSAGE>
+    <MESSAGE SEVERITY="INFO">
+      <CODE>I007800</CODE>
+      <FILE>unknown</FILE>
+      <LINE>unknown</LINE>
+      <LOCATION/>
+      <TEXT>Optimizing server &apos;/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_NvM&apos; port &apos;NvM_NativeBlock_2&apos; operation &apos;ReadPRAMBlock&apos; by eliding inter-task and inter-ECU handling.</TEXT>
+    </MESSAGE>
+    <MESSAGE SEVERITY="INFO">
+      <CODE>I007800</CODE>
+      <FILE>unknown</FILE>
+      <LINE>unknown</LINE>
+      <LOCATION/>
+      <TEXT>Optimizing server &apos;/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_NvM&apos; port &apos;NvM_NativeBlock_2&apos; operation &apos;RestoreBlockDefaults&apos; by eliding inter-task and inter-ECU handling.</TEXT>
+    </MESSAGE>
+    <MESSAGE SEVERITY="INFO">
+      <CODE>I007800</CODE>
+      <FILE>unknown</FILE>
+      <LINE>unknown</LINE>
+      <LOCATION/>
+      <TEXT>Optimizing server &apos;/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_NvM&apos; port &apos;NvM_NativeBlock_2&apos; operation &apos;RestorePRAMBlockDefaults&apos; by eliding inter-task and inter-ECU handling.</TEXT>
+    </MESSAGE>
+    <MESSAGE SEVERITY="INFO">
+      <CODE>I007800</CODE>
+      <FILE>unknown</FILE>
+      <LINE>unknown</LINE>
+      <LOCATION/>
+      <TEXT>Optimizing server &apos;/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_NvM&apos; port &apos;NvM_NativeBlock_2&apos; operation &apos;SetDataIndex&apos; by eliding inter-task and inter-ECU handling.</TEXT>
+    </MESSAGE>
+    <MESSAGE SEVERITY="INFO">
+      <CODE>I007800</CODE>
+      <FILE>unknown</FILE>
+      <LINE>unknown</LINE>
+      <LOCATION/>
+      <TEXT>Optimizing server &apos;/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_NvM&apos; port &apos;NvM_NativeBlock_2&apos; operation &apos;SetRamBlockStatus&apos; by eliding inter-task and inter-ECU handling.</TEXT>
+    </MESSAGE>
+    <MESSAGE SEVERITY="INFO">
+      <CODE>I007800</CODE>
+      <FILE>unknown</FILE>
+      <LINE>unknown</LINE>
+      <LOCATION/>
+      <TEXT>Optimizing server &apos;/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_NvM&apos; port &apos;NvM_NativeBlock_2&apos; operation &apos;WriteBlock&apos; by eliding inter-task and inter-ECU handling.</TEXT>
+    </MESSAGE>
+    <MESSAGE SEVERITY="INFO">
+      <CODE>I007800</CODE>
+      <FILE>unknown</FILE>
+      <LINE>unknown</LINE>
+      <LOCATION/>
+      <TEXT>Optimizing server &apos;/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_NvM&apos; port &apos;NvM_NativeBlock_2&apos; operation &apos;WritePRAMBlock&apos; by eliding inter-task and inter-ECU handling.</TEXT>
+    </MESSAGE>
+    <MESSAGE SEVERITY="WARNING">
+      <CODE>W006238</CODE>
+      <FILE>C:/Users/mis1mi/Documents/projects/nevs/mode_management/ParkBrake/asw_config/ParkSWC.arxml</FILE>
+      <LINE>25</LINE>
+      <LOCATION>/ParkSWC/ParkSWC/RP_DioControl</LOCATION>
+      <TEXT>Required port &apos;RP_DioControl&apos; of SW-C instance &apos;/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_ParkSWC&apos; is not connected to a providing port.</TEXT>
+    </MESSAGE>
+    <MESSAGE SEVERITY="WARNING">
+      <CODE>W006238</CODE>
+      <FILE>C:/Users/mis1mi/Documents/projects/nevs/mode_management/ParkBrake/asw_config/SystemSWC.arxml</FILE>
+      <LINE>17</LINE>
+      <LOCATION>/SystemSWC/SystemSWC/RP_KeyStatus</LOCATION>
+      <TEXT>Required port &apos;RP_KeyStatus&apos; of SW-C instance &apos;/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_SystemSWC&apos; is not connected to a providing port.</TEXT>
+    </MESSAGE>
+    <MESSAGE SEVERITY="WARNING">
+      <CODE>W006930</CODE>
+      <FILE>unknown</FILE>
+      <LINE>unknown</LINE>
+      <LOCATION/>
+      <TEXT>The configuration for Task OsTask_ASW_SporadicEvents specifies an activation limit of 1 however RTA-RTE has calculated that it requires a limit of 2. The calculated figure has not been output.</TEXT>
+    </MESSAGE>
+    <MESSAGE SEVERITY="INFO">
+      <CODE>I002900</CODE>
+      <FILE>unknown</FILE>
+      <LINE>unknown</LINE>
+      <LOCATION/>
+      <TEXT>The RTE implementation requires OsCounter &apos;Rte_TickCounter&apos;. This object is not declared in the input.</TEXT>
+    </MESSAGE>
+    <MESSAGE SEVERITY="INFO">
+      <CODE>I006910</CODE>
+      <FILE>unknown</FILE>
+      <LINE>unknown</LINE>
+      <LOCATION/>
+      <TEXT>Counter Rte_TickCounter must be ticked at 1 ms.</TEXT>
+    </MESSAGE>
+    <MESSAGE SEVERITY="WARNING">
+      <CODE>W005100</CODE>
+      <FILE>unknown</FILE>
+      <LINE>unknown</LINE>
+      <LOCATION/>
+      <TEXT>Identifiers [CanIf_Prv_TxBufferStatus_tst_struct_app, CanIf_Prv_TxBufferStatus_tst_struct_impl] are not significant in the first 31 characters.</TEXT>
+    </MESSAGE>
+    <MESSAGE SEVERITY="WARNING">
+      <CODE>W005100</CODE>
+      <FILE>unknown</FILE>
+      <LINE>unknown</LINE>
+      <LOCATION/>
+      <TEXT>Identifiers [CanSM_BusOffRecoveryStateType_Enum_app, CanSM_BusOffRecoveryStateType_Enum_impl] are not significant in the first 31 characters.</TEXT>
+    </MESSAGE>
+    <MESSAGE SEVERITY="WARNING">
+      <CODE>W005100</CODE>
+      <FILE>unknown</FILE>
+      <LINE>unknown</LINE>
+      <LOCATION/>
+      <TEXT>Identifiers [BswM_Cfg_ImdtBswNotification_BswM_MRP_BswM_MDG_ECUM_STATE_APP_POST_RUN, BswM_Cfg_ImdtBswNotification_BswM_MRP_BswM_MDG_ECUM_STATE_APP_RUN, BswM_Cfg_ImdtBswNotification_BswM_MRP_BswM_MDG_ECUM_STATE_RUN, BswM_Cfg_ImdtBswNotification_BswM_MRP_BswM_MDG_ECUM_STATE_STARTUP_ONE, BswM_Cfg_ImdtBswNotification_BswM_MRP_BswM_MDG_ECUM_STATE_STARTUP_TWO] are not significant in the first 31 characters.</TEXT>
+    </MESSAGE>
+    <MESSAGE SEVERITY="WARNING">
+      <CODE>W005100</CODE>
+      <FILE>unknown</FILE>
+      <LINE>unknown</LINE>
+      <LOCATION/>
+      <TEXT>Identifiers [SchM_Exit_Can_CAN_EXCLUSIVE_AREA_02, SchM_Exit_Can_CAN_EXCLUSIVE_AREA_01, SchM_Exit_Can_CAN_EXCLUSIVE_AREA_00] are not significant in the first 31 characters.</TEXT>
+    </MESSAGE>
+    <MESSAGE SEVERITY="WARNING">
+      <CODE>W005100</CODE>
+      <FILE>unknown</FILE>
+      <LINE>unknown</LINE>
+      <LOCATION/>
+      <TEXT>Identifiers [SchM_Enter_Can_CAN_EXCLUSIVE_AREA_02, SchM_Enter_Can_CAN_EXCLUSIVE_AREA_01, SchM_Enter_Can_CAN_EXCLUSIVE_AREA_00] are not significant in the first 31 characters.</TEXT>
+    </MESSAGE>
+    <MESSAGE SEVERITY="WARNING">
+      <CODE>W005100</CODE>
+      <FILE>unknown</FILE>
+      <LINE>unknown</LINE>
+      <LOCATION/>
+      <TEXT>Identifiers [Rte_Call_MemSWC_RP_NvM_ParkStatus_WriteBlock, Rte_Call_MemSWC_RP_NvM_ParkStatus_SetRamBlockStatus, Rte_Call_MemSWC_RP_NvM_ParkStatus_ReadBlock] are not significant in the first 31 characters.</TEXT>
+    </MESSAGE>
+    <MESSAGE SEVERITY="WARNING">
+      <CODE>W005100</CODE>
+      <FILE>unknown</FILE>
+      <LINE>unknown</LINE>
+      <LOCATION/>
+      <TEXT>Identifiers [CanIf_ControllerStateType_struct_app, CanIf_ControllerStateType_struct_impl] are not significant in the first 31 characters.</TEXT>
+    </MESSAGE>
+    <MESSAGE SEVERITY="WARNING">
+      <CODE>W005100</CODE>
+      <FILE>unknown</FILE>
+      <LINE>unknown</LINE>
+      <LOCATION/>
+      <TEXT>Identifiers [CanSM_NetworkModeStateType_Enum_app, CanSM_NetworkModeStateType_Enum_impl] are not significant in the first 31 characters.</TEXT>
+    </MESSAGE>
+    <COUNT>
+      <ERROR>0</ERROR>
+      <WARNING>17</WARNING>
+      <INFO>20</INFO>
+    </COUNT>
+  </MESSAGES>
+</RTEGEN>

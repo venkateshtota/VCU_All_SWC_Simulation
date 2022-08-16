@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ULF-PROCESSING-LOG>
+<ADMIN-DATA>
+<LANGUAGE>EN</LANGUAGE>
+<USED-LANGUAGES>
+<L-10 L="EN">English</L-10>
+<L-10 L="DE">German</L-10>
+</USED-LANGUAGES>
+</ADMIN-DATA>
+<LOG-ENTRY TI="RTTM_Editor_AR4X_01" S="3237f8962909b89016c6991d55491e76" T="2022-02-27T12:01:45.146+0100">
+<SHORT-NAME>ISOLAR-A_1</SHORT-NAME>
+<DESC>
+<L-2 L="EN">Mapped events having different period for the OsTask Container /OS/Os/OsTask_ASW_PeriodicEvents</L-2>
+</DESC>
+<CATEGORY>SYSTEM</CATEGORY>
+<SDG GID="ULF">
+<SD GID="ULF-INCIDENT-URL">ecu_config/os/internal/Os_EcucValues.arxml</SD>
+<SD GID="ULF-SIGNATURE-ALG">DEFAULT</SD>
+<SD GID="ULF-LINE-NUMBER-START">0</SD>
+<SD GID="ULF-TOOL-NAME">ISOLAR-A</SD>
+</SDG>
+<SDG GID="B.WORX_LOGGING">
+<SD GID="project_name">ParkBrake</SD>
+</SDG>
+<SDG GID="BlueWorX Validation">
+<SD GID="PROJECT">ParkBrake</SD>
+<SD GID="CustomTargetURI">platform:/resource/ParkBrake/ecu_config/os/internal/Os_EcucValues.arxml#/OS/Os/OsTask_ASW_PeriodicEvents?type=EcucContainerValue</SD>
+<SD GID="constraintPluginId">com.bosch.autosartool.common.util</SD>
+<SD GID="Resource">/ParkBrake/ecu_config/os/internal/Os_EcucValues.arxml</SD>
+<SD GID="CategoryName">ISOLAR-A</SD>
+<SD GID="DOMAIN_VALIDATION">DOMAIN_VALIDATION_TRUE</SD>
+<SD GID="QUALIFIEDNAME">/OS/Os/OsTask_ASW_PeriodicEvents</SD>
+<SD GID="UUID">001</SD>
+<SD GID="URI">platform:/resource/ParkBrake/ecu_config/os/internal/Os_EcucValues.arxml#/OS/Os/OsTask_ASW_PeriodicEvents?type=EcucContainerValue</SD>
+</SDG>
+</LOG-ENTRY>
+<LOG-ENTRY TI="RTTM_Editor_AR4X_01" S="feb3c98fac1beba766c87011b39ec56f" T="2022-02-27T12:01:45.146+0100">
+<SHORT-NAME>ISOLAR-A_2</SHORT-NAME>
+<DESC>
+<L-2 L="EN">Mapped events having different period for the OsTask Container /OS/Os/OsTask_BSW</L-2>
+</DESC>
+<CATEGORY>SYSTEM</CATEGORY>
+<SDG GID="ULF">
+<SD GID="ULF-INCIDENT-URL">ecu_config/os/internal/Os_EcucValues.arxml</SD>
+<SD GID="ULF-SIGNATURE-ALG">DEFAULT</SD>
+<SD GID="ULF-LINE-NUMBER-START">0</SD>
+<SD GID="ULF-TOOL-NAME">ISOLAR-A</SD>
+</SDG>
+<SDG GID="B.WORX_LOGGING">
+<SD GID="project_name">ParkBrake</SD>
+</SDG>
+<SDG GID="BlueWorX Validation">
+<SD GID="PROJECT">ParkBrake</SD>
+<SD GID="CustomTargetURI">platform:/resource/ParkBrake/ecu_config/os/internal/Os_EcucValues.arxml#/OS/Os/OsTask_BSW?type=EcucContainerValue</SD>
+<SD GID="constraintPluginId">com.bosch.autosartool.common.util</SD>
+<SD GID="Resource">/ParkBrake/ecu_config/os/internal/Os_EcucValues.arxml</SD>
+<SD GID="CategoryName">ISOLAR-A</SD>
+<SD GID="DOMAIN_VALIDATION">DOMAIN_VALIDATION_TRUE</SD>
+<SD GID="QUALIFIEDNAME">/OS/Os/OsTask_BSW</SD>
+<SD GID="UUID">001</SD>
+<SD GID="URI">platform:/resource/ParkBrake/ecu_config/os/internal/Os_EcucValues.arxml#/OS/Os/OsTask_BSW?type=EcucContainerValue</SD>
+</SDG>
+</LOG-ENTRY>
+</ULF-PROCESSING-LOG>

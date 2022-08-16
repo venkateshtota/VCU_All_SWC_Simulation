@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "rte_memswc.h": "c",
+        "rte_systemswc.h": "c"
+    }
+}

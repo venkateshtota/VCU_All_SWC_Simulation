@@ -1,0 +1,58 @@
+# Auto Generated
+general_configuration: 
+ dev_error_detect = false
+ get_ram_state_api = false
+ init_clock = true
+ no_pll = true
+ perform_reset_api = false
+ version_info_api = true
+module_configuration: 
+ clock_src_failure_notification = DISABLED
+ number_of_mcu_modes = 4
+ ram_sectors = 2
+ reset_setting = 1
+ clock_setting_config: 
+  0: McuClockSettingConfig_0
+   setting_id = 111
+   clock_reference_point: 
+    0: McuClockReferencePoint_0
+     frequency = 50000.0
+  1: McuClockSettingConfig_1
+   setting_id = 1
+   clock_reference_point: 
+    0: McuClockReferencePoint_10
+     frequency = 50000.0
+  2: McuClockSettingConfig_2
+   setting_id = 255
+   clock_reference_point: 
+    0: McuClockReferencePoint_20
+     frequency = 50000.0
+ dem_event_parameter_refs: 
+  mcu_e_clock_failure = /vecu/UBK/Project/EcucModuleConfigurationValuess/Dem/DemConfigSet_0/DemEventParameter_0
+ mode_setting_conf: 
+  0: McuModeSettingConf_0
+   mode = 25
+  1: McuModeSettingConf_2
+   mode = 150
+  2: McuModeSettingConf_3
+   mode = 7
+  3: McuModeSettingConf_1
+   mode = 210
+ ram_sector_setting_conf: 
+  0: McuRamSectorSettingConf_0
+   ram_default_value = 55
+   ram_section_base_address = 8192
+   ram_section_size = 32768
+  1: McuRamSectorSettingConf_1
+   ram_default_value = 0
+   ram_section_base_address = 65536
+   ram_section_size = 16384
+published_information: 
+ reset_reason_conf: 
+  0: McuResetReasonConf_0
+   reset_reason = 0
+  1: McuResetReasonConf_1
+   reset_reason = 75
+  2: McuResetReasonConf_2
+   reset_reason = 175
+

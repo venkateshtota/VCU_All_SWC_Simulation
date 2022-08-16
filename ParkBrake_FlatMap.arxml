@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AUTOSAR xmlns="http://autosar.org/schema/r4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://autosar.org/schema/r4.0 AUTOSAR_4-2-2.xsd">
+  <AR-PACKAGES>
+    <AR-PACKAGE>
+      <SHORT-NAME>ParkBrake_FlatView</SHORT-NAME>
+      <ELEMENTS>
+        <FLAT-MAP>
+          <SHORT-NAME>ParkBrake_FlatMap</SHORT-NAME>
+          <INSTANCES>
+            <FLAT-INSTANCE-DESCRIPTOR>
+              <SHORT-NAME>CPT_ComSWC</SHORT-NAME>
+              <UPSTREAM-REFERENCE-IREF>
+                <CONTEXT-ELEMENT-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/System/ParkBrakeSystem/RootSwCompositionPrototype_0</CONTEXT-ELEMENT-REF>
+                <TARGET-REF DEST="SW-COMPONENT-PROTOTYPE">/System/TopLevelComposition/CPT_ComSWC</TARGET-REF>
+              </UPSTREAM-REFERENCE-IREF>
+              <ECU-EXTRACT-REFERENCE-IREF>
+                <CONTEXT-ELEMENT-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/ParkBrakeSystem_EcuExtract/EXTR_ParkBrake/CPT_ParkBrake_FlatView</CONTEXT-ELEMENT-REF>
+                <TARGET-REF DEST="SW-COMPONENT-PROTOTYPE">/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_ComSWC</TARGET-REF>
+              </ECU-EXTRACT-REFERENCE-IREF>
+            </FLAT-INSTANCE-DESCRIPTOR>
+            <FLAT-INSTANCE-DESCRIPTOR>
+              <SHORT-NAME>CPT_MemSWC</SHORT-NAME>
+              <UPSTREAM-REFERENCE-IREF>
+                <CONTEXT-ELEMENT-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/System/ParkBrakeSystem/RootSwCompositionPrototype_0</CONTEXT-ELEMENT-REF>
+                <TARGET-REF DEST="SW-COMPONENT-PROTOTYPE">/System/TopLevelComposition/CPT_MemSWC</TARGET-REF>
+              </UPSTREAM-REFERENCE-IREF>
+              <ECU-EXTRACT-REFERENCE-IREF>
+                <CONTEXT-ELEMENT-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/ParkBrakeSystem_EcuExtract/EXTR_ParkBrake/CPT_ParkBrake_FlatView</CONTEXT-ELEMENT-REF>
+                <TARGET-REF DEST="SW-COMPONENT-PROTOTYPE">/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_MemSWC</TARGET-REF>
+              </ECU-EXTRACT-REFERENCE-IREF>
+            </FLAT-INSTANCE-DESCRIPTOR>
+            <FLAT-INSTANCE-DESCRIPTOR>
+              <SHORT-NAME>CPT_ParkSWC</SHORT-NAME>
+              <UPSTREAM-REFERENCE-IREF>
+                <CONTEXT-ELEMENT-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/System/ParkBrakeSystem/RootSwCompositionPrototype_0</CONTEXT-ELEMENT-REF>
+                <TARGET-REF DEST="SW-COMPONENT-PROTOTYPE">/System/TopLevelComposition/CPT_ParkSWC</TARGET-REF>
+              </UPSTREAM-REFERENCE-IREF>
+              <ECU-EXTRACT-REFERENCE-IREF>
+                <CONTEXT-ELEMENT-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/ParkBrakeSystem_EcuExtract/EXTR_ParkBrake/CPT_ParkBrake_FlatView</CONTEXT-ELEMENT-REF>
+                <TARGET-REF DEST="SW-COMPONENT-PROTOTYPE">/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_ParkSWC</TARGET-REF>
+              </ECU-EXTRACT-REFERENCE-IREF>
+            </FLAT-INSTANCE-DESCRIPTOR>
+            <FLAT-INSTANCE-DESCRIPTOR>
+              <SHORT-NAME>CPT_SystemSWC</SHORT-NAME>
+              <UPSTREAM-REFERENCE-IREF>
+                <CONTEXT-ELEMENT-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/System/ParkBrakeSystem/RootSwCompositionPrototype_0</CONTEXT-ELEMENT-REF>
+                <TARGET-REF DEST="SW-COMPONENT-PROTOTYPE">/System/TopLevelComposition/CPT_SystemSWC</TARGET-REF>
+              </UPSTREAM-REFERENCE-IREF>
+              <ECU-EXTRACT-REFERENCE-IREF>
+                <CONTEXT-ELEMENT-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/ParkBrakeSystem_EcuExtract/EXTR_ParkBrake/CPT_ParkBrake_FlatView</CONTEXT-ELEMENT-REF>
+                <TARGET-REF DEST="SW-COMPONENT-PROTOTYPE">/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_SystemSWC</TARGET-REF>
+              </ECU-EXTRACT-REFERENCE-IREF>
+            </FLAT-INSTANCE-DESCRIPTOR>
+            <FLAT-INSTANCE-DESCRIPTOR>
+              <SHORT-NAME>DE_ParkState</SHORT-NAME>
+              <SW-DATA-DEF-PROPS>
+                <SW-DATA-DEF-PROPS-VARIANTS>
+                  <SW-DATA-DEF-PROPS-CONDITIONAL>
+                    <SW-REFRESH-TIMING>
+                      <CSE-CODE>1000</CSE-CODE>
+                      <CSE-CODE-FACTOR>1</CSE-CODE-FACTOR>
+                    </SW-REFRESH-TIMING>
+                  </SW-DATA-DEF-PROPS-CONDITIONAL>
+                </SW-DATA-DEF-PROPS-VARIANTS>
+              </SW-DATA-DEF-PROPS>
+              <UPSTREAM-REFERENCE-IREF>
+                <CONTEXT-ELEMENT-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/System/ParkBrakeSystem/RootSwCompositionPrototype_0</CONTEXT-ELEMENT-REF>
+                <CONTEXT-ELEMENT-REF DEST="SW-COMPONENT-PROTOTYPE">/System/TopLevelComposition/CPT_ParkSWC</CONTEXT-ELEMENT-REF>
+                <CONTEXT-ELEMENT-REF DEST="P-PORT-PROTOTYPE">/ParkSWC/ParkSWC/PP_ParkStatus</CONTEXT-ELEMENT-REF>
+                <TARGET-REF DEST="VARIABLE-DATA-PROTOTYPE">/PortInterfaces/SR_IF_ParkState/DE_ParkState</TARGET-REF>
+              </UPSTREAM-REFERENCE-IREF>
+              <ECU-EXTRACT-REFERENCE-IREF>
+                <CONTEXT-ELEMENT-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/ParkBrakeSystem_EcuExtract/EXTR_ParkBrake/CPT_ParkBrake_FlatView</CONTEXT-ELEMENT-REF>
+                <CONTEXT-ELEMENT-REF DEST="SW-COMPONENT-PROTOTYPE">/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_ParkSWC</CONTEXT-ELEMENT-REF>
+                <CONTEXT-ELEMENT-REF DEST="P-PORT-PROTOTYPE">/ParkSWC/ParkSWC/PP_ParkStatus</CONTEXT-ELEMENT-REF>
+                <TARGET-REF DEST="VARIABLE-DATA-PROTOTYPE">/PortInterfaces/SR_IF_ParkState/DE_ParkState</TARGET-REF>
+              </ECU-EXTRACT-REFERENCE-IREF>
+            </FLAT-INSTANCE-DESCRIPTOR>
+          </INSTANCES>
+        </FLAT-MAP>
+      </ELEMENTS>
+    </AR-PACKAGE>
+  </AR-PACKAGES>
+</AUTOSAR>
+

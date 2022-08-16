@@ -1,0 +1,27 @@
+Conf-Gen PreProcessor executing...
+Detected Ecu Extract preference customization file in the project: C:\Users\mis1mi\Documents\projects\nevs\mem_os\ParkBrake\EcuExtract_CLI_Input.txt
+Ecu Extract completed successfully
+
+Conf-Gen PreProcessor executed.
+Conf-Gen executing...
+********************************************************************************
+Conf-Gen Execution Started
+********************************************************************************
+Tool Version : ISOLAR-B 
+Tool Build Id :20211108_1800
+Date : Tue Feb 01 11:31:10 CET 2022
+Project : ParkBrake
+********************************************************************************
+Executing Start Script: RTA-BSW
+********************************************************************************
+Executing 'Conf-Gen Enhancer' for project 'ParkBrake'
+********************************************************************************
+********************************************************************************
+Time taken for Executing Conf-Gen Enhancer: 00:00:00:022
+********************************************************************************
+********************************************************************************
+Total Time taken for Conf-Gen Execution: 00:00:06:771
+********************************************************************************
+Conf-Gen executed.
+Conf-Gen PostProcessor executing...
+Conf-Gen PostProcessor executed.

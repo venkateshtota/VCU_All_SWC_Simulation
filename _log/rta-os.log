@@ -1,0 +1,41 @@
+********************************************************************************
+Build Execution started
+********************************************************************************
+Tool Version : ISOLAR-A/B 9.2 
+Tool Build Id :20211108_1800
+Date : Sun Feb 27 12:10:47 CET 2022
+Project : ParkBrake
+********************************************************************************
+
+********************************************************************************
+Project clean execution has started at 12:10:47:445 hh:mm:ss:ms 
+********************************************************************************
+C:\Users\mis1mi\Documents\projects\nevs\mode_management\ParkBrake\src\os directory cleaned
+Clean action: RTA_OS 
+********************************************************************************
+Project clean execution has been completed
+Time taken to run Project Clean :: 00:00:00:012 hh:mm:ss:ms 
+********************************************************************************
+********************************************************************************
+Main build execution has started at 12:10:51:419 hh:mm:ss:ms 
+********************************************************************************
+Execute action: RTA_OS 
+********************************************************************************
+RTA-OS Code Generator 
+Version 6.2.0.32429, Copyright c ETAS 2021
+Selected target VRTA[MinGW] V3.0.45.2388
+.....................................................................................................
+Created report 'Configuration Summary.txt'
+Information: ScheduleTable Rte_ScheduleTable has 10 expiry points.
+Information: Updated 'RTAOS.lib'
+Errors: 0, Warnings: 0.
+Command: C:\ETAS\RTA-CAR_9.2.0\RTA-OS_6.2.0/bin/rtaosgen.exe  --ar_version:4.2.2 --output:"C:/Users/mis1mi/Documents/projects/nevs/mode_management/ParkBrake/src/os"   "C:/Users/mis1mi/Documents/projects/nevs/mode_management/ParkBrake/src/rte/osNeeds.arxml"  "C:/Users/mis1mi/Documents/projects/nevs/mode_management/ParkBrake/ecu_config/os/internal/Os_EcucValues.arxml"  --build:clean --build:verbose --report:"Configuration Summary.txt" --include:C:/Users/mis1mi/Documents/projects/nevs/mode_management/ParkBrake/src/integration
+--include:C:/Users/mis1mi/Documents/projects/nevs/mode_management/ParkBrake/src/bsw/integration
+
+Execution of action RTA_OS successfully completed
+********************************************************************************
+
+Build Summary 
+********************************************************************************
+- RTA_OS --> Success (Executed for 00:00:33:090 hh:mm:ss:ms)
+Time taken for the complete build: 00:00:33:424

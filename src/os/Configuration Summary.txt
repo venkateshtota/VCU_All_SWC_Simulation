@@ -1,0 +1,465 @@
+=====================================
+RTA-OS Configuration Summary: osNeeds
+=====================================
+
+Project Overview
+================
+
+Project information
+-------------------
+  Project: osNeeds (Project name)
+  Target: VRTA (Target name)
+  TargetVariant: MinGW (Target variant)
+  TotalCores: 1 (Number of Cores allocated)
+  OSCores: 0 (Number of Cores used for AUTOSAR OS)
+  TargetVersion: 3.0.45 (Target version)
+  OSVersion: 6.2.0 (OS version)
+  ARVersion: 4.2.2 (AUTOSAR version)
+  
+OS characteristics
+------------------
+  ScalabilityClass: SC1 (Scalability Class)
+  OSIPL: 1 (Interrupt priority at OS level)
+  HighestIPL: 1 (Highest interrupt priority used)
+  MaxIPL: 32 (Maximum possible interrupt priority)
+  
+Target configuration
+--------------------
+  CyclesPerSecond: undefined (Number of CPU cycles per second)
+  TicksPerSecond: undefined (Number of stopwatch ticks per second)
+  DefCat1Stack: undefined (Default stack budget for Category 1 ISRs)
+  DefCat2Stack: undefined (Default stack budget for Category 2 ISRs)
+  DefTaskStack: undefined (Default stack budget for Tasks)
+  
+Hardware information
+--------------------
+  Vendor: Microsoft Windows (Chip vendor)
+  Device: Virtual ECU (Device)
+  Register initialization: none (Initialization is done by the VRTA startup code)
+  Reserved register: none (Not applicable)
+  Reserved resource: Cross-core interrupt (In multi-core configurations, the OS will allocate one free interrupt to use for cross-core communication)
+  
+
+OS Configuration
+================
+
+Application Modes
+-----------------
+Key:
+  Name:  The name of the application mode
+  Index:  Internal OS object index
+
+The OS configuration defines the following application modes:
+  
+  Name: OSDEFAULTAPPMODE
+    Index: 1
+
+
+Hooks
+-----
+  ErrorHook: present (Called on error)
+  StartupHook: not present (Called during StartOS())
+  ShutdownHook: present (Called during ShutdownOS())
+  PreTaskHook: not present (Called prior to starting/resuming a task)
+  PostTaskHook: not present (Called after stopping/pausing a task)
+  StackFaultHook: not present (Called when a stack budget overrun is detected)
+  ProtectionHook: not present (Called when a memory violation or CPU exception occurs)
+  
+OS-Application Hooks
+--------------------
+  
+OS-Applications
+---------------
+There are no OS-Applications in the OS configuration.
+  
+Trusted Functions
+-----------------
+There are no Trusted Functions in the OS configuration.
+  
+PeripheralAreas
+---------------
+There are no PeripheralAreas in the OS configuration.
+  
+Spinlocks
+---------
+There are no Spinlocks in the OS configuration.
+  
+Category 1 ISRs
+---------------
+There are no Category 1 ISRs in the OS configuration.
+  
+Category 2 ISRs
+---------------
+Key:
+  Name:  The name of the ISR
+  Priority:  The declared interrupt priority
+  Base_ipl:  The interrupt priority assigned at configuration
+  Dispatch_ipl:  The interrupt priority that the ISR runs at (this can be higher than the base priority if the ISR shares an internal resource with other interrupts)
+  Vector:  The vector of the interrupt
+  Location:  Name for MemMap code section override for the ISR
+  Index:  Internal OS object index
+
+The OS configuration defines the following Category 2 ISRs:
+  
+  Name: OsTickIsr
+    Priority: 1
+    Base_ipl: 1
+    Dispatch_ipl: 1
+    Vector: v1
+    Location: 
+    Index: 0
+
+
+Tasks
+-----
+Key:
+  Name:  The name of the Task
+  Type:  The task type (see the OSEK/ISO 17356/AUTOSAR OS Specifications for explanation)
+  Priority:  The declared task priority
+  Activations:  The number of task activations that can be queued at a time
+  Base_tpl:  The task priority assigned at configuration
+  Dispatch_tpl:  The task priority that the task runs at (this can be higher than the base priority if the task shares an internal resource with other tasks)
+  Dispatch_ipl:  The interrupt priority that the task runs at (this happens if the task shares an internal resource with an interrupt)
+  Schedules:  Can call Schedule() API
+  Location:  Name for MemMap code section override for the task
+  Index:  Internal OS object index
+
+The OS configuration defines the following Tasks:
+  
+  Name: OsTask_ASW_PeriodicEvents
+    Type: BCC1
+    Priority: 1
+    Activations: 1
+    Base_tpl: 0
+    Dispatch_tpl: 0
+    Dispatch_ipl: 0
+    Schedules: 
+    Location: 
+    Index: 0
+
+  Name: OsTask_ASW_SporadicEvents
+    Type: BCC1
+    Priority: 2
+    Activations: 1
+    Base_tpl: 1
+    Dispatch_tpl: 1
+    Dispatch_ipl: 0
+    Schedules: 
+    Location: 
+    Index: 1
+
+  Name: OsTask_BSW
+    Type: BCC1
+    Priority: 3
+    Activations: 1
+    Base_tpl: 2
+    Dispatch_tpl: 2
+    Dispatch_ipl: 0
+    Schedules: 
+    Location: 
+    Index: 2
+
+  Name: OsTask_Startup
+    Type: BCC1
+    Priority: 4
+    Activations: 1
+    Base_tpl: 3
+    Dispatch_tpl: 3
+    Dispatch_ipl: 0
+    Schedules: 
+    Location: 
+    Index: 3
+
+
+Register Sets
+-------------
+There are no Register Sets in the OS configuration.
+  
+Resources
+---------
+Key:
+  Name:  The name of the Resource
+  Property:  The type of resource
+  Link:  The resource that it links to
+  Tpl:  For resources that are only used by tasks: the task priority to which the system is raised when the resource is locked
+  Ipl:  For resources that are used by interrupts: the interrupt priority  to which the system is raised when the resource is locked
+  Index:  Internal OS object index
+
+The OS configuration defines the following Resources:
+  
+  Name: RTE_RESOURCE
+    Property: STANDARD
+    Link: 
+    Tpl: 2
+    Ipl: 0
+    Index: 0
+
+  Name: RES_SCHEDULER
+    Property: STANDARD
+    Link: 
+    Tpl: 3
+    Ipl: 0
+    Index: 1
+
+
+Events
+------
+There are no Events in the OS configuration.
+  
+Counters
+--------
+Key:
+  Name:  The name of the counter
+  Max_allowed_value:  The maximum value the counter can take
+  Min_cycle:  The minimum counter increment
+  Ticks_per_base:  Implementation defined
+  Type:  A software counter is incremented one tick at a time. A hardware counter advances by intervals defined by the alarms and schedule tables that it drives
+  Index:  Internal OS object index
+
+The OS configuration defines the following Counters:
+  
+  Name: Rte_TickCounter
+    Max_allowed_value: 65535
+    Min_cycle: 1
+    Ticks_per_base: 1
+    Type: SOFTWARE
+    Index: 0
+
+
+TimeConstants
+-------------
+There are no TimeConstants in the OS configuration.
+  
+Alarms
+------
+There are no Alarms in the OS configuration.
+  
+ScheduleTables
+--------------
+Key:
+  Name:  The name of the ScheduleTable
+  Duration:  The duration of the ScheduleTable in ticks
+  Repeat:  True if the ScheduleTable repeats when its duration is complete
+  Synchronization:  The type of Synchronization
+  Index:  Internal OS object index
+
+The OS configuration defines the following ScheduleTables:
+  
+  Name: Rte_ScheduleTable
+    Duration: 10
+    Repeat: true
+    Synchronization: None
+    Index: 0
+
+
+Expiry Points
+-------------
+Key:
+  Name:  The name of the Expiry Point
+  Schedule:  The ScheduleTable that owns the Expiry Point
+  Offset:  The offset in ticks from the start of the ScheduleTable
+  Action:  The action(s) performed by the Expiry Points
+
+The OS configuration defines the following Expiry Points:
+  
+  Name: rte_Stimulus_1
+    Schedule: Rte_ScheduleTable
+    Offset: 0 {-0,+0}
+    Action: Activate OsTask_ASW_PeriodicEvents. Activate OsTask_BSW
+
+  Name: rte_Stimulus_2
+    Schedule: Rte_ScheduleTable
+    Offset: 1 {-0,+0}
+    Action: Activate OsTask_BSW
+
+  Name: rte_Stimulus_3
+    Schedule: Rte_ScheduleTable
+    Offset: 2 {-0,+0}
+    Action: Activate OsTask_BSW
+
+  Name: rte_Stimulus_4
+    Schedule: Rte_ScheduleTable
+    Offset: 3 {-0,+0}
+    Action: Activate OsTask_BSW
+
+  Name: rte_Stimulus_5
+    Schedule: Rte_ScheduleTable
+    Offset: 4 {-0,+0}
+    Action: Activate OsTask_BSW
+
+  Name: rte_Stimulus_6
+    Schedule: Rte_ScheduleTable
+    Offset: 5 {-0,+0}
+    Action: Activate OsTask_BSW
+
+  Name: rte_Stimulus_7
+    Schedule: Rte_ScheduleTable
+    Offset: 6 {-0,+0}
+    Action: Activate OsTask_BSW
+
+  Name: rte_Stimulus_8
+    Schedule: Rte_ScheduleTable
+    Offset: 7 {-0,+0}
+    Action: Activate OsTask_BSW
+
+  Name: rte_Stimulus_9
+    Schedule: Rte_ScheduleTable
+    Offset: 8 {-0,+0}
+    Action: Activate OsTask_BSW
+
+  Name: rte_Stimulus_10
+    Schedule: Rte_ScheduleTable
+    Offset: 9 {-0,+0}
+    Action: Activate OsTask_BSW
+
+
+
+TRACE Configuration
+===================
+Tracing is disabled.
+
+Build Details
+=============
+
+Build options
+-------------
+The project contains the following internal build options/optimizations:
+  ActivateKL: true
+  application_state: true
+  asyn_apis: false
+  async_activations: false
+  async_tasks: false
+  atomic_rw_size: 4
+  atomic_struct_copies: false
+  avoid_noinit_definitions: false
+  cat2_ipl_protection: false
+  check_execution_budgets: false
+  check_stack_budgets: false
+  combined_resources: false
+  cross_core_activation: false
+  cross_core_isr: false
+  delayed_tasks: false
+  enhanced_isolation: false
+  errorhandling: full
+  errorlogging: true
+  extended_tests: false
+  first_osapp: 1
+  forced_termination: false
+  forced_termination_of_isrs: false
+  forced_termination_of_tasks: false
+  generate_vectors: true
+  hardware_counters: false
+  hardware_tasks: false
+  has_events: false
+  has_resources: true
+  has_spinlocks: false
+  interrupt_apis_need_controlled_core: false
+  invalid_osapp: 0
+  invalid_osapp_is_zero: true
+  ioc_external: false
+  ioc_internal: false
+  ioc_present: false
+  ioc_stub: false
+  isr_internal_resources: false
+  isr_lifetime_hooks: false
+  isr_timeframes: false
+  isrs_have_dyntype: true
+  lightweight: false
+  memmap_declarations: true
+  memmap_definitions: true
+  memory_protection_callbacks: false
+  meter_elapsed_time: false
+  meter_execution: false
+  meter_stack: false
+  metrics: false
+  mixed_psets: false
+  monitor_activations: false
+  multi_core: false
+  multi_os: false
+  multiple_activation: false
+  no_upward_activation: false
+  optimize_schedule: false
+  orti: true
+  os_core_compatibility: 6.2.0
+  rtaos6_memmap_compliant: true
+  scalability_class: 1
+  shared_priorities: false
+  shutdownhook: true
+  single_os: true
+  software_counters: true
+  spinlock_info: false
+  spinlocks: false
+  spinlocks_lock_locally: 
+  stack_sampling: false
+  support_chaintask: true
+  support_nonautosar_cores: true
+  support_schedule: true
+  table_synchronization: 
+  table_synchronization_none: true
+  task_activation_hooks: false
+  task_internal_resources: false
+  task_lifetime_hooks: false
+  task_termination_hooks: false
+  task_timeframes: false
+  tasks_have_dyntype: true
+  terminate_applications: false
+  terminate_specified_applications: true
+  timing_protection: false
+  timing_protection_isr: false
+  trace: false
+  trusted_functions: false
+  
+Target characteristics
+----------------------
+The project contains the following internal target characteristics:
+  IsUntrustedCodeOK_params: { parameters are target-dependent }
+  IsUntrustedTrapOK_params: { parameters are target-dependent }
+  autosar_platform_name: VRTA_win
+  biggest_api_param_size: 32
+  biggest_api_param_type: unsigned int
+  cat1_internal_resources: true
+  compiler_description: Visual Studio or MinGW C/C++
+  compilername: MinGW
+  core_count: 1
+  endianness: little
+  float32: float
+  float64: double
+  has_hardware_trusted_with_protection_mode: true
+  ignore_compiler_memclass: true
+  instrument_os: true
+  int32: int
+  large_constant_suffix: LL
+  large_int_size: 64
+  large_int_type: __int64
+  large_unsigned_constant_suffix: ULL
+  native_char_size: 8
+  native_int_size: 32
+  native_int_type: int
+  no_floating_point: true
+  only_trusted_mode: false
+  sint16_least: signed short
+  sint32_least: signed int
+  sint8_least: signed char
+  stack_alignment: 4
+  task_indexer: Os_const_tasks
+  test_and_set_is_exchange: true
+  trace_has_embedded_comms: true
+  trusted_with_protection: true
+  uint16_least: unsigned short
+  uint32_least: unsigned int
+  uint8_least: unsigned char
+  
+Library compilation options
+---------------------------
+There are no Library compilation options in the OS configuration.
+  
+Library assembler options
+-------------------------
+There are no Library assembler options in the OS configuration.
+  
+Linker options
+--------------
+There are no Linker options in the OS configuration.
+  
+
+Copyright ETAS GmbH 2022

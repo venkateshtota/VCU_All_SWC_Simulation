@@ -1,0 +1,919 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ULF-PROCESSING-LOG>
+<ADMIN-DATA>
+<LANGUAGE>EN</LANGUAGE>
+<USED-LANGUAGES>
+<L-10 L="EN">English</L-10>
+<L-10 L="DE">German</L-10>
+</USED-LANGUAGES>
+</ADMIN-DATA>
+<LOG-ENTRY TI="Default" S="505cad5dbd9123d53f90e9df4ac38c69" T="2022-02-28T18:00:54.254+0100">
+<SHORT-NAME>RTA-RTE_1</SHORT-NAME>
+<DESC>
+<L-2 L="EN">The configuration for Task OsTask_ASW_SporadicEvents specifies an activation limit of 1 however RTA-RTE has calculated that it requires a limit of 2. The calculated figure has not been output. - Line: unknown</L-2>
+</DESC>
+<CATEGORY>WARN</CATEGORY>
+<SDG GID="ULF">
+<SD GID="ULF-INCIDENT-URL">.</SD>
+<SD GID="ULF-SIGNATURE-ALG">DEFAULT</SD>
+<SD GID="ULF-TOOL-NAME">RTA-RTE</SD>
+</SDG>
+<SDG GID="B.WORX_LOGGING">
+<SD GID="project_name">ParkBrake</SD>
+</SDG>
+<SDG GID="BlueWorX Validation">
+<SD GID="Resource">ParkBrake</SD>
+<SD GID="PROJECT">ParkBrake</SD>
+<SD GID="DOMAIN_VALIDATION">DOMAIN_VALIDATION_TRUE</SD>
+<SD GID="KEY_FOR_FILTER">VALUE</SD>
+</SDG>
+</LOG-ENTRY>
+<LOG-ENTRY TI="Default" S="c4ba5e68d3b6583c5d8f363b7f6510a9" T="2022-02-28T18:00:54.254+0100">
+<SHORT-NAME>RTA-RTE_2</SHORT-NAME>
+<DESC>
+<L-2 L="EN">The RTE implementation requires OsCounter 'Rte_TickCounter'. This object is not declared in the input. - Line: unknown</L-2>
+</DESC>
+<CATEGORY>DEBUG</CATEGORY>
+<SDG GID="ULF">
+<SD GID="ULF-INCIDENT-URL">.</SD>
+<SD GID="ULF-SIGNATURE-ALG">DEFAULT</SD>
+<SD GID="ULF-TOOL-NAME">RTA-RTE</SD>
+</SDG>
+<SDG GID="B.WORX_LOGGING">
+<SD GID="project_name">ParkBrake</SD>
+</SDG>
+<SDG GID="BlueWorX Validation">
+<SD GID="Resource">ParkBrake</SD>
+<SD GID="PROJECT">ParkBrake</SD>
+<SD GID="DOMAIN_VALIDATION">DOMAIN_VALIDATION_TRUE</SD>
+<SD GID="KEY_FOR_FILTER">VALUE</SD>
+</SDG>
+</LOG-ENTRY>
+<LOG-ENTRY TI="Default" S="52c7cf4004d615a01cd391aa58fc565f" T="2022-02-28T18:00:54.255+0100">
+<SHORT-NAME>RTA-RTE_3</SHORT-NAME>
+<DESC>
+<L-2 L="EN">Counter Rte_TickCounter must be ticked at 1 ms. - Line: unknown</L-2>
+</DESC>
+<CATEGORY>DEBUG</CATEGORY>
+<SDG GID="ULF">
+<SD GID="ULF-INCIDENT-URL">.</SD>
+<SD GID="ULF-SIGNATURE-ALG">DEFAULT</SD>
+<SD GID="ULF-TOOL-NAME">RTA-RTE</SD>
+</SDG>
+<SDG GID="B.WORX_LOGGING">
+<SD GID="project_name">ParkBrake</SD>
+</SDG>
+<SDG GID="BlueWorX Validation">
+<SD GID="Resource">ParkBrake</SD>
+<SD GID="PROJECT">ParkBrake</SD>
+<SD GID="DOMAIN_VALIDATION">DOMAIN_VALIDATION_TRUE</SD>
+<SD GID="KEY_FOR_FILTER">VALUE</SD>
+</SDG>
+</LOG-ENTRY>
+<LOG-ENTRY TI="Default" S="e89612dab5e94dc8b4f5e7da74d35d84" T="2022-02-28T18:00:54.255+0100">
+<SHORT-NAME>RTA-RTE_4</SHORT-NAME>
+<DESC>
+<L-2 L="EN">Identifiers [CanIf_Prv_TxBufferStatus_tst_struct_app, CanIf_Prv_TxBufferStatus_tst_struct_impl] are not significant in the first 31 characters. - Line: unknown</L-2>
+</DESC>
+<CATEGORY>WARN</CATEGORY>
+<SDG GID="ULF">
+<SD GID="ULF-INCIDENT-URL">.</SD>
+<SD GID="ULF-SIGNATURE-ALG">DEFAULT</SD>
+<SD GID="ULF-TOOL-NAME">RTA-RTE</SD>
+</SDG>
+<SDG GID="B.WORX_LOGGING">
+<SD GID="project_name">ParkBrake</SD>
+</SDG>
+<SDG GID="BlueWorX Validation">
+<SD GID="Resource">ParkBrake</SD>
+<SD GID="PROJECT">ParkBrake</SD>
+<SD GID="DOMAIN_VALIDATION">DOMAIN_VALIDATION_TRUE</SD>
+<SD GID="KEY_FOR_FILTER">VALUE</SD>
+</SDG>
+</LOG-ENTRY>
+<LOG-ENTRY TI="Default" S="50e072408c187667b54ec654c0692450" T="2022-02-28T18:00:54.255+0100">
+<SHORT-NAME>RTA-RTE_5</SHORT-NAME>
+<DESC>
+<L-2 L="EN">Identifiers [CanSM_BusOffRecoveryStateType_Enum_app, CanSM_BusOffRecoveryStateType_Enum_impl] are not significant in the first 31 characters. - Line: unknown</L-2>
+</DESC>
+<CATEGORY>WARN</CATEGORY>
+<SDG GID="ULF">
+<SD GID="ULF-INCIDENT-URL">.</SD>
+<SD GID="ULF-SIGNATURE-ALG">DEFAULT</SD>
+<SD GID="ULF-TOOL-NAME">RTA-RTE</SD>
+</SDG>
+<SDG GID="B.WORX_LOGGING">
+<SD GID="project_name">ParkBrake</SD>
+</SDG>
+<SDG GID="BlueWorX Validation">
+<SD GID="Resource">ParkBrake</SD>
+<SD GID="PROJECT">ParkBrake</SD>
+<SD GID="DOMAIN_VALIDATION">DOMAIN_VALIDATION_TRUE</SD>
+<SD GID="KEY_FOR_FILTER">VALUE</SD>
+</SDG>
+</LOG-ENTRY>
+<LOG-ENTRY TI="Default" S="1eabb66c698550c79de1f5c62906101f" T="2022-02-28T18:00:54.255+0100">
+<SHORT-NAME>RTA-RTE_6</SHORT-NAME>
+<DESC>
+<L-2 L="EN">Identifiers [BswM_Cfg_ImdtBswNotification_BswM_MRP_BswM_MDG_ECUM_STATE_APP_POST_RUN, BswM_Cfg_ImdtBswNotification_BswM_MRP_BswM_MDG_ECUM_STATE_APP_RUN, BswM_Cfg_ImdtBswNotification_BswM_MRP_BswM_MDG_ECUM_STATE_RUN, BswM_Cfg_ImdtBswNotification_BswM_MRP_BswM_MDG_ECUM_STATE_STARTUP_ONE, BswM_Cfg_ImdtBswNotification_BswM_MRP_BswM_MDG_ECUM_STATE_STARTUP_TWO] are not significant in the first 31 characters. - Line: unknown</L-2>
+</DESC>
+<CATEGORY>WARN</CATEGORY>
+<SDG GID="ULF">
+<SD GID="ULF-INCIDENT-URL">.</SD>
+<SD GID="ULF-SIGNATURE-ALG">DEFAULT</SD>
+<SD GID="ULF-TOOL-NAME">RTA-RTE</SD>
+</SDG>
+<SDG GID="B.WORX_LOGGING">
+<SD GID="project_name">ParkBrake</SD>
+</SDG>
+<SDG GID="BlueWorX Validation">
+<SD GID="Resource">ParkBrake</SD>
+<SD GID="PROJECT">ParkBrake</SD>
+<SD GID="DOMAIN_VALIDATION">DOMAIN_VALIDATION_TRUE</SD>
+<SD GID="KEY_FOR_FILTER">VALUE</SD>
+</SDG>
+</LOG-ENTRY>
+<LOG-ENTRY TI="Default" S="8fbd794f29f76ef079d0bd5375e9ec" T="2022-02-28T18:00:54.256+0100">
+<SHORT-NAME>RTA-RTE_7</SHORT-NAME>
+<DESC>
+<L-2 L="EN">Identifiers [SchM_Exit_Can_CAN_EXCLUSIVE_AREA_02, SchM_Exit_Can_CAN_EXCLUSIVE_AREA_01, SchM_Exit_Can_CAN_EXCLUSIVE_AREA_00] are not significant in the first 31 characters. - Line: unknown</L-2>
+</DESC>
+<CATEGORY>WARN</CATEGORY>
+<SDG GID="ULF">
+<SD GID="ULF-INCIDENT-URL">.</SD>
+<SD GID="ULF-SIGNATURE-ALG">DEFAULT</SD>
+<SD GID="ULF-TOOL-NAME">RTA-RTE</SD>
+</SDG>
+<SDG GID="B.WORX_LOGGING">
+<SD GID="project_name">ParkBrake</SD>
+</SDG>
+<SDG GID="BlueWorX Validation">
+<SD GID="Resource">ParkBrake</SD>
+<SD GID="PROJECT">ParkBrake</SD>
+<SD GID="DOMAIN_VALIDATION">DOMAIN_VALIDATION_TRUE</SD>
+<SD GID="KEY_FOR_FILTER">VALUE</SD>
+</SDG>
+</LOG-ENTRY>
+<LOG-ENTRY TI="Default" S="8a413fb448f51b166baa7c802ba680b9" T="2022-02-28T18:00:54.256+0100">
+<SHORT-NAME>RTA-RTE_8</SHORT-NAME>
+<DESC>
+<L-2 L="EN">Identifiers [SchM_Enter_Can_CAN_EXCLUSIVE_AREA_02, SchM_Enter_Can_CAN_EXCLUSIVE_AREA_01, SchM_Enter_Can_CAN_EXCLUSIVE_AREA_00] are not significant in the first 31 characters. - Line: unknown</L-2>
+</DESC>
+<CATEGORY>WARN</CATEGORY>
+<SDG GID="ULF">
+<SD GID="ULF-INCIDENT-URL">.</SD>
+<SD GID="ULF-SIGNATURE-ALG">DEFAULT</SD>
+<SD GID="ULF-TOOL-NAME">RTA-RTE</SD>
+</SDG>
+<SDG GID="B.WORX_LOGGING">
+<SD GID="project_name">ParkBrake</SD>
+</SDG>
+<SDG GID="BlueWorX Validation">
+<SD GID="Resource">ParkBrake</SD>
+<SD GID="PROJECT">ParkBrake</SD>
+<SD GID="DOMAIN_VALIDATION">DOMAIN_VALIDATION_TRUE</SD>
+<SD GID="KEY_FOR_FILTER">VALUE</SD>
+</SDG>
+</LOG-ENTRY>
+<LOG-ENTRY TI="Default" S="46354655e8ca1ca60df71307312d4ba4" T="2022-02-28T18:00:54.256+0100">
+<SHORT-NAME>RTA-RTE_9</SHORT-NAME>
+<DESC>
+<L-2 L="EN">Identifiers [Rte_Call_MemSWC_RP_NvM_ParkStatus_WriteBlock, Rte_Call_MemSWC_RP_NvM_ParkStatus_SetRamBlockStatus, Rte_Call_MemSWC_RP_NvM_ParkStatus_ReadBlock] are not significant in the first 31 characters. - Line: unknown</L-2>
+</DESC>
+<CATEGORY>WARN</CATEGORY>
+<SDG GID="ULF">
+<SD GID="ULF-INCIDENT-URL">.</SD>
+<SD GID="ULF-SIGNATURE-ALG">DEFAULT</SD>
+<SD GID="ULF-TOOL-NAME">RTA-RTE</SD>
+</SDG>
+<SDG GID="B.WORX_LOGGING">
+<SD GID="project_name">ParkBrake</SD>
+</SDG>
+<SDG GID="BlueWorX Validation">
+<SD GID="Resource">ParkBrake</SD>
+<SD GID="PROJECT">ParkBrake</SD>
+<SD GID="DOMAIN_VALIDATION">DOMAIN_VALIDATION_TRUE</SD>
+<SD GID="KEY_FOR_FILTER">VALUE</SD>
+</SDG>
+</LOG-ENTRY>
+<LOG-ENTRY TI="Default" S="96ff119a1752776001ffb14ab65fe7e7" T="2022-02-28T18:00:54.256+0100">
+<SHORT-NAME>RTA-RTE_10</SHORT-NAME>
+<DESC>
+<L-2 L="EN">Identifiers [CanIf_ControllerStateType_struct_app, CanIf_ControllerStateType_struct_impl] are not significant in the first 31 characters. - Line: unknown</L-2>
+</DESC>
+<CATEGORY>WARN</CATEGORY>
+<SDG GID="ULF">
+<SD GID="ULF-INCIDENT-URL">.</SD>
+<SD GID="ULF-SIGNATURE-ALG">DEFAULT</SD>
+<SD GID="ULF-TOOL-NAME">RTA-RTE</SD>
+</SDG>
+<SDG GID="B.WORX_LOGGING">
+<SD GID="project_name">ParkBrake</SD>
+</SDG>
+<SDG GID="BlueWorX Validation">
+<SD GID="Resource">ParkBrake</SD>
+<SD GID="PROJECT">ParkBrake</SD>
+<SD GID="DOMAIN_VALIDATION">DOMAIN_VALIDATION_TRUE</SD>
+<SD GID="KEY_FOR_FILTER">VALUE</SD>
+</SDG>
+</LOG-ENTRY>
+<LOG-ENTRY TI="Default" S="70dfb415a5b45b8a0b2bb79bb8130a4f" T="2022-02-28T18:00:54.257+0100">
+<SHORT-NAME>RTA-RTE_11</SHORT-NAME>
+<DESC>
+<L-2 L="EN">Identifiers [CanSM_NetworkModeStateType_Enum_app, CanSM_NetworkModeStateType_Enum_impl] are not significant in the first 31 characters. - Line: unknown</L-2>
+</DESC>
+<CATEGORY>WARN</CATEGORY>
+<SDG GID="ULF">
+<SD GID="ULF-INCIDENT-URL">.</SD>
+<SD GID="ULF-SIGNATURE-ALG">DEFAULT</SD>
+<SD GID="ULF-TOOL-NAME">RTA-RTE</SD>
+</SDG>
+<SDG GID="B.WORX_LOGGING">
+<SD GID="project_name">ParkBrake</SD>
+</SDG>
+<SDG GID="BlueWorX Validation">
+<SD GID="Resource">ParkBrake</SD>
+<SD GID="PROJECT">ParkBrake</SD>
+<SD GID="DOMAIN_VALIDATION">DOMAIN_VALIDATION_TRUE</SD>
+<SD GID="KEY_FOR_FILTER">VALUE</SD>
+</SDG>
+</LOG-ENTRY>
+<LOG-ENTRY TI="Default" S="3c825bc227b0b958d57a57fa5e3dc84" T="2022-02-28T18:00:54.246+0100">
+<SHORT-NAME>RTA-RTE_12</SHORT-NAME>
+<DESC>
+<L-2 L="EN">Expected ON-TRANSITION-VALUE element missing for ModeDeclarationGroup '/MSI_ShutDown/MDG/MDG_ShutDown', using the calculated value '2'. - Line: unknown</L-2>
+</DESC>
+<CATEGORY>DEBUG</CATEGORY>
+<SDG GID="ULF">
+<SD GID="ULF-INCIDENT-URL">.</SD>
+<SD GID="ULF-SIGNATURE-ALG">DEFAULT</SD>
+<SD GID="ULF-TOOL-NAME">RTA-RTE</SD>
+</SDG>
+<SDG GID="B.WORX_LOGGING">
+<SD GID="project_name">ParkBrake</SD>
+</SDG>
+<SDG GID="BlueWorX Validation">
+<SD GID="Resource">ParkBrake</SD>
+<SD GID="PROJECT">ParkBrake</SD>
+<SD GID="DOMAIN_VALIDATION">DOMAIN_VALIDATION_TRUE</SD>
+<SD GID="KEY_FOR_FILTER">VALUE</SD>
+</SDG>
+</LOG-ENTRY>
+<LOG-ENTRY TI="Default" S="efb2d050456cc5028d127bc972c7653d" T="2022-02-28T18:00:54.250+0100">
+<SHORT-NAME>RTA-RTE_13</SHORT-NAME>
+<DESC>
+<L-2 L="EN">Optimizing server '/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_NvM' port 'NvM_NativeBlock_2' operation 'EraseBlock' by eliding inter-task and inter-ECU handling. - Line: unknown</L-2>
+</DESC>
+<CATEGORY>DEBUG</CATEGORY>
+<SDG GID="ULF">
+<SD GID="ULF-INCIDENT-URL">.</SD>
+<SD GID="ULF-SIGNATURE-ALG">DEFAULT</SD>
+<SD GID="ULF-TOOL-NAME">RTA-RTE</SD>
+</SDG>
+<SDG GID="B.WORX_LOGGING">
+<SD GID="project_name">ParkBrake</SD>
+</SDG>
+<SDG GID="BlueWorX Validation">
+<SD GID="Resource">ParkBrake</SD>
+<SD GID="PROJECT">ParkBrake</SD>
+<SD GID="DOMAIN_VALIDATION">DOMAIN_VALIDATION_TRUE</SD>
+<SD GID="KEY_FOR_FILTER">VALUE</SD>
+</SDG>
+</LOG-ENTRY>
+<LOG-ENTRY TI="Default" S="dbd4ed758a6eb1e619d78a5e3a8462a1" T="2022-02-28T18:00:54.250+0100">
+<SHORT-NAME>RTA-RTE_14</SHORT-NAME>
+<DESC>
+<L-2 L="EN">Optimizing server '/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_NvM' port 'NvM_NativeBlock_2' operation 'GetDataIndex' by eliding inter-task and inter-ECU handling. - Line: unknown</L-2>
+</DESC>
+<CATEGORY>DEBUG</CATEGORY>
+<SDG GID="ULF">
+<SD GID="ULF-INCIDENT-URL">.</SD>
+<SD GID="ULF-SIGNATURE-ALG">DEFAULT</SD>
+<SD GID="ULF-TOOL-NAME">RTA-RTE</SD>
+</SDG>
+<SDG GID="B.WORX_LOGGING">
+<SD GID="project_name">ParkBrake</SD>
+</SDG>
+<SDG GID="BlueWorX Validation">
+<SD GID="Resource">ParkBrake</SD>
+<SD GID="PROJECT">ParkBrake</SD>
+<SD GID="DOMAIN_VALIDATION">DOMAIN_VALIDATION_TRUE</SD>
+<SD GID="KEY_FOR_FILTER">VALUE</SD>
+</SDG>
+</LOG-ENTRY>
+<LOG-ENTRY TI="Default" S="807c0a65b07a0dab59ba9a53db1d3935" T="2022-02-28T18:00:54.251+0100">
+<SHORT-NAME>RTA-RTE_15</SHORT-NAME>
+<DESC>
+<L-2 L="EN">Optimizing server '/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_NvM' port 'NvM_NativeBlock_2' operation 'GetErrorStatus' by eliding inter-task and inter-ECU handling. - Line: unknown</L-2>
+</DESC>
+<CATEGORY>DEBUG</CATEGORY>
+<SDG GID="ULF">
+<SD GID="ULF-INCIDENT-URL">.</SD>
+<SD GID="ULF-SIGNATURE-ALG">DEFAULT</SD>
+<SD GID="ULF-TOOL-NAME">RTA-RTE</SD>
+</SDG>
+<SDG GID="B.WORX_LOGGING">
+<SD GID="project_name">ParkBrake</SD>
+</SDG>
+<SDG GID="BlueWorX Validation">
+<SD GID="Resource">ParkBrake</SD>
+<SD GID="PROJECT">ParkBrake</SD>
+<SD GID="DOMAIN_VALIDATION">DOMAIN_VALIDATION_TRUE</SD>
+<SD GID="KEY_FOR_FILTER">VALUE</SD>
+</SDG>
+</LOG-ENTRY>
+<LOG-ENTRY TI="Default" S="804b7de1bbdde340fae50ff2423c2211" T="2022-02-28T18:00:54.251+0100">
+<SHORT-NAME>RTA-RTE_16</SHORT-NAME>
+<DESC>
+<L-2 L="EN">Optimizing server '/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_NvM' port 'NvM_NativeBlock_2' operation 'InvalidateNvBlock' by eliding inter-task and inter-ECU handling. - Line: unknown</L-2>
+</DESC>
+<CATEGORY>DEBUG</CATEGORY>
+<SDG GID="ULF">
+<SD GID="ULF-INCIDENT-URL">.</SD>
+<SD GID="ULF-SIGNATURE-ALG">DEFAULT</SD>
+<SD GID="ULF-TOOL-NAME">RTA-RTE</SD>
+</SDG>
+<SDG GID="B.WORX_LOGGING">
+<SD GID="project_name">ParkBrake</SD>
+</SDG>
+<SDG GID="BlueWorX Validation">
+<SD GID="Resource">ParkBrake</SD>
+<SD GID="PROJECT">ParkBrake</SD>
+<SD GID="DOMAIN_VALIDATION">DOMAIN_VALIDATION_TRUE</SD>
+<SD GID="KEY_FOR_FILTER">VALUE</SD>
+</SDG>
+</LOG-ENTRY>
+<LOG-ENTRY TI="Default" S="e6d0ba3d04242ea0a3ebcb001f40c00f" T="2022-02-28T18:00:54.251+0100">
+<SHORT-NAME>RTA-RTE_17</SHORT-NAME>
+<DESC>
+<L-2 L="EN">Optimizing server '/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_NvM' port 'NvM_NativeBlock_2' operation 'ReadBlock' by eliding inter-task and inter-ECU handling. - Line: unknown</L-2>
+</DESC>
+<CATEGORY>DEBUG</CATEGORY>
+<SDG GID="ULF">
+<SD GID="ULF-INCIDENT-URL">.</SD>
+<SD GID="ULF-SIGNATURE-ALG">DEFAULT</SD>
+<SD GID="ULF-TOOL-NAME">RTA-RTE</SD>
+</SDG>
+<SDG GID="B.WORX_LOGGING">
+<SD GID="project_name">ParkBrake</SD>
+</SDG>
+<SDG GID="BlueWorX Validation">
+<SD GID="Resource">ParkBrake</SD>
+<SD GID="PROJECT">ParkBrake</SD>
+<SD GID="DOMAIN_VALIDATION">DOMAIN_VALIDATION_TRUE</SD>
+<SD GID="KEY_FOR_FILTER">VALUE</SD>
+</SDG>
+</LOG-ENTRY>
+<LOG-ENTRY TI="Default" S="fa9283a33eaf479830a44fff26eb1a60" T="2022-02-28T18:00:54.251+0100">
+<SHORT-NAME>RTA-RTE_18</SHORT-NAME>
+<DESC>
+<L-2 L="EN">Optimizing server '/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_NvM' port 'NvM_NativeBlock_2' operation 'ReadPRAMBlock' by eliding inter-task and inter-ECU handling. - Line: unknown</L-2>
+</DESC>
+<CATEGORY>DEBUG</CATEGORY>
+<SDG GID="ULF">
+<SD GID="ULF-INCIDENT-URL">.</SD>
+<SD GID="ULF-SIGNATURE-ALG">DEFAULT</SD>
+<SD GID="ULF-TOOL-NAME">RTA-RTE</SD>
+</SDG>
+<SDG GID="B.WORX_LOGGING">
+<SD GID="project_name">ParkBrake</SD>
+</SDG>
+<SDG GID="BlueWorX Validation">
+<SD GID="Resource">ParkBrake</SD>
+<SD GID="PROJECT">ParkBrake</SD>
+<SD GID="DOMAIN_VALIDATION">DOMAIN_VALIDATION_TRUE</SD>
+<SD GID="KEY_FOR_FILTER">VALUE</SD>
+</SDG>
+</LOG-ENTRY>
+<LOG-ENTRY TI="Default" S="c0dff4a24b317d53f3e3b5217a3985f4" T="2022-02-28T18:00:54.252+0100">
+<SHORT-NAME>RTA-RTE_19</SHORT-NAME>
+<DESC>
+<L-2 L="EN">Optimizing server '/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_NvM' port 'NvM_NativeBlock_2' operation 'RestoreBlockDefaults' by eliding inter-task and inter-ECU handling. - Line: unknown</L-2>
+</DESC>
+<CATEGORY>DEBUG</CATEGORY>
+<SDG GID="ULF">
+<SD GID="ULF-INCIDENT-URL">.</SD>
+<SD GID="ULF-SIGNATURE-ALG">DEFAULT</SD>
+<SD GID="ULF-TOOL-NAME">RTA-RTE</SD>
+</SDG>
+<SDG GID="B.WORX_LOGGING">
+<SD GID="project_name">ParkBrake</SD>
+</SDG>
+<SDG GID="BlueWorX Validation">
+<SD GID="Resource">ParkBrake</SD>
+<SD GID="PROJECT">ParkBrake</SD>
+<SD GID="DOMAIN_VALIDATION">DOMAIN_VALIDATION_TRUE</SD>
+<SD GID="KEY_FOR_FILTER">VALUE</SD>
+</SDG>
+</LOG-ENTRY>
+<LOG-ENTRY TI="Default" S="eb6d03c3f3cd8383392a72a8eb20156d" T="2022-02-28T18:00:54.252+0100">
+<SHORT-NAME>RTA-RTE_20</SHORT-NAME>
+<DESC>
+<L-2 L="EN">Optimizing server '/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_NvM' port 'NvM_NativeBlock_2' operation 'RestorePRAMBlockDefaults' by eliding inter-task and inter-ECU handling. - Line: unknown</L-2>
+</DESC>
+<CATEGORY>DEBUG</CATEGORY>
+<SDG GID="ULF">
+<SD GID="ULF-INCIDENT-URL">.</SD>
+<SD GID="ULF-SIGNATURE-ALG">DEFAULT</SD>
+<SD GID="ULF-TOOL-NAME">RTA-RTE</SD>
+</SDG>
+<SDG GID="B.WORX_LOGGING">
+<SD GID="project_name">ParkBrake</SD>
+</SDG>
+<SDG GID="BlueWorX Validation">
+<SD GID="Resource">ParkBrake</SD>
+<SD GID="PROJECT">ParkBrake</SD>
+<SD GID="DOMAIN_VALIDATION">DOMAIN_VALIDATION_TRUE</SD>
+<SD GID="KEY_FOR_FILTER">VALUE</SD>
+</SDG>
+</LOG-ENTRY>
+<LOG-ENTRY TI="Default" S="7a975504cbbcf06fba1712553a7cb433" T="2022-02-28T18:00:54.252+0100">
+<SHORT-NAME>RTA-RTE_21</SHORT-NAME>
+<DESC>
+<L-2 L="EN">Optimizing server '/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_NvM' port 'NvM_NativeBlock_2' operation 'SetDataIndex' by eliding inter-task and inter-ECU handling. - Line: unknown</L-2>
+</DESC>
+<CATEGORY>DEBUG</CATEGORY>
+<SDG GID="ULF">
+<SD GID="ULF-INCIDENT-URL">.</SD>
+<SD GID="ULF-SIGNATURE-ALG">DEFAULT</SD>
+<SD GID="ULF-TOOL-NAME">RTA-RTE</SD>
+</SDG>
+<SDG GID="B.WORX_LOGGING">
+<SD GID="project_name">ParkBrake</SD>
+</SDG>
+<SDG GID="BlueWorX Validation">
+<SD GID="Resource">ParkBrake</SD>
+<SD GID="PROJECT">ParkBrake</SD>
+<SD GID="DOMAIN_VALIDATION">DOMAIN_VALIDATION_TRUE</SD>
+<SD GID="KEY_FOR_FILTER">VALUE</SD>
+</SDG>
+</LOG-ENTRY>
+<LOG-ENTRY TI="Default" S="a4d73e0227849985554a971e4cc7590f" T="2022-02-28T18:00:54.252+0100">
+<SHORT-NAME>RTA-RTE_22</SHORT-NAME>
+<DESC>
+<L-2 L="EN">Optimizing server '/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_NvM' port 'NvM_NativeBlock_2' operation 'SetRamBlockStatus' by eliding inter-task and inter-ECU handling. - Line: unknown</L-2>
+</DESC>
+<CATEGORY>DEBUG</CATEGORY>
+<SDG GID="ULF">
+<SD GID="ULF-INCIDENT-URL">.</SD>
+<SD GID="ULF-SIGNATURE-ALG">DEFAULT</SD>
+<SD GID="ULF-TOOL-NAME">RTA-RTE</SD>
+</SDG>
+<SDG GID="B.WORX_LOGGING">
+<SD GID="project_name">ParkBrake</SD>
+</SDG>
+<SDG GID="BlueWorX Validation">
+<SD GID="Resource">ParkBrake</SD>
+<SD GID="PROJECT">ParkBrake</SD>
+<SD GID="DOMAIN_VALIDATION">DOMAIN_VALIDATION_TRUE</SD>
+<SD GID="KEY_FOR_FILTER">VALUE</SD>
+</SDG>
+</LOG-ENTRY>
+<LOG-ENTRY TI="Default" S="981531188407ea8aa8ad0560c8738d74" T="2022-02-28T18:00:54.253+0100">
+<SHORT-NAME>RTA-RTE_23</SHORT-NAME>
+<DESC>
+<L-2 L="EN">Optimizing server '/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_NvM' port 'NvM_NativeBlock_2' operation 'WriteBlock' by eliding inter-task and inter-ECU handling. - Line: unknown</L-2>
+</DESC>
+<CATEGORY>DEBUG</CATEGORY>
+<SDG GID="ULF">
+<SD GID="ULF-INCIDENT-URL">.</SD>
+<SD GID="ULF-SIGNATURE-ALG">DEFAULT</SD>
+<SD GID="ULF-TOOL-NAME">RTA-RTE</SD>
+</SDG>
+<SDG GID="B.WORX_LOGGING">
+<SD GID="project_name">ParkBrake</SD>
+</SDG>
+<SDG GID="BlueWorX Validation">
+<SD GID="Resource">ParkBrake</SD>
+<SD GID="PROJECT">ParkBrake</SD>
+<SD GID="DOMAIN_VALIDATION">DOMAIN_VALIDATION_TRUE</SD>
+<SD GID="KEY_FOR_FILTER">VALUE</SD>
+</SDG>
+</LOG-ENTRY>
+<LOG-ENTRY TI="Default" S="10d80630afcb27c625858540502573f9" T="2022-02-28T18:00:54.253+0100">
+<SHORT-NAME>RTA-RTE_24</SHORT-NAME>
+<DESC>
+<L-2 L="EN">Optimizing server '/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_NvM' port 'NvM_NativeBlock_2' operation 'WritePRAMBlock' by eliding inter-task and inter-ECU handling. - Line: unknown</L-2>
+</DESC>
+<CATEGORY>DEBUG</CATEGORY>
+<SDG GID="ULF">
+<SD GID="ULF-INCIDENT-URL">.</SD>
+<SD GID="ULF-SIGNATURE-ALG">DEFAULT</SD>
+<SD GID="ULF-TOOL-NAME">RTA-RTE</SD>
+</SDG>
+<SDG GID="B.WORX_LOGGING">
+<SD GID="project_name">ParkBrake</SD>
+</SDG>
+<SDG GID="BlueWorX Validation">
+<SD GID="Resource">ParkBrake</SD>
+<SD GID="PROJECT">ParkBrake</SD>
+<SD GID="DOMAIN_VALIDATION">DOMAIN_VALIDATION_TRUE</SD>
+<SD GID="KEY_FOR_FILTER">VALUE</SD>
+</SDG>
+</LOG-ENTRY>
+<LOG-ENTRY TI="W006238" S="571991b6d2a12323bae7fdd9706d676d" T="2022-02-28T18:00:54.253+0100">
+<SHORT-NAME>RTA-RTE_25</SHORT-NAME>
+<DESC>
+<L-2 L="EN">Target ARObject: &lt;RP_DioControl&gt; Required port 'RP_DioControl' of SW-C instance '/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_ParkSWC' is not connected to a providing port. - Line: 25. [Infos] &lt;RP_DioControl&gt; : &lt;/ParkSWC/ParkSWC/RP_DioControl&gt;</L-2>
+</DESC>
+<CATEGORY>WARN</CATEGORY>
+<SDG GID="ULF">
+<SD GID="ULF-INCIDENT-URL">asw_config/ParkSWC.arxml</SD>
+<SD GID="ULF-SIGNATURE-ALG">DEFAULT</SD>
+<SD GID="ULF-TOOL-NAME">RTA-RTE</SD>
+</SDG>
+<SDG GID="B.WORX_LOGGING">
+<SD GID="editorInputUri">platform:/resource/ParkBrake/asw_config/ParkSWC.arxml#/ParkSWC/ParkSWC/RP_DioControl?type=RPortPrototype</SD>
+<SD GID="editorID">com.bosch.autosartool.generic.editor</SD>
+<SD GID="project_name">ParkBrake</SD>
+</SDG>
+<SDG GID="BlueWorX Validation">
+<SD GID="PROJECT">ParkBrake</SD>
+<SD GID="KEY_FOR_FILTER">VALUE</SD>
+<SD GID="Resource">/ParkBrake/asw_config/ParkSWC.arxml</SD>
+<SD GID="valuri_/ParkSWC/ParkSWC/RP_DioControl">platform:/resource/ParkBrake/asw_config/ParkSWC.arxml#/ParkSWC/ParkSWC/RP_DioControl?type=RPortPrototype</SD>
+<SD GID="DOMAIN_VALIDATION">DOMAIN_VALIDATION_TRUE</SD>
+<SD GID="QUALIFIEDNAME">/ParkSWC/ParkSWC/RP_DioControl</SD>
+<SD GID="id">W006238</SD>
+<SD GID="URI">platform:/resource/ParkBrake/asw_config/ParkSWC.arxml#/ParkSWC/ParkSWC/RP_DioControl?type=RPortPrototype</SD>
+</SDG>
+</LOG-ENTRY>
+<LOG-ENTRY TI="W006238" S="950e435ba9e4ddcba21912792d5f7d4f" T="2022-02-28T18:00:54.254+0100">
+<SHORT-NAME>RTA-RTE_26</SHORT-NAME>
+<DESC>
+<L-2 L="EN">Target ARObject: &lt;RP_KeyStatus&gt; Required port 'RP_KeyStatus' of SW-C instance '/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_SystemSWC' is not connected to a providing port. - Line: 17. [Infos] &lt;RP_KeyStatus&gt; : &lt;/SystemSWC/SystemSWC/RP_KeyStatus&gt;</L-2>
+</DESC>
+<CATEGORY>WARN</CATEGORY>
+<SDG GID="ULF">
+<SD GID="ULF-INCIDENT-URL">asw_config/SystemSWC.arxml</SD>
+<SD GID="ULF-SIGNATURE-ALG">DEFAULT</SD>
+<SD GID="ULF-TOOL-NAME">RTA-RTE</SD>
+</SDG>
+<SDG GID="B.WORX_LOGGING">
+<SD GID="editorInputUri">platform:/resource/ParkBrake/asw_config/SystemSWC.arxml#/SystemSWC/SystemSWC/RP_KeyStatus?type=RPortPrototype</SD>
+<SD GID="editorID">com.bosch.autosartool.generic.editor</SD>
+<SD GID="project_name">ParkBrake</SD>
+</SDG>
+<SDG GID="BlueWorX Validation">
+<SD GID="valuri_/SystemSWC/SystemSWC/RP_KeyStatus">platform:/resource/ParkBrake/asw_config/SystemSWC.arxml#/SystemSWC/SystemSWC/RP_KeyStatus?type=RPortPrototype</SD>
+<SD GID="PROJECT">ParkBrake</SD>
+<SD GID="KEY_FOR_FILTER">VALUE</SD>
+<SD GID="Resource">/ParkBrake/asw_config/SystemSWC.arxml</SD>
+<SD GID="DOMAIN_VALIDATION">DOMAIN_VALIDATION_TRUE</SD>
+<SD GID="QUALIFIEDNAME">/SystemSWC/SystemSWC/RP_KeyStatus</SD>
+<SD GID="id">W006238</SD>
+<SD GID="URI">platform:/resource/ParkBrake/asw_config/SystemSWC.arxml#/SystemSWC/SystemSWC/RP_KeyStatus?type=RPortPrototype</SD>
+</SDG>
+</LOG-ENTRY>
+<LOG-ENTRY TI="W002150" S="415daa121eed953797254e7d9996edfc" T="2022-02-28T18:00:54.246+0100">
+<SHORT-NAME>RTA-RTE_27</SHORT-NAME>
+<DESC>
+<L-2 L="EN">Target ARObject: &lt;NvM&gt; No SwcInstance mapped to the ECU references this SwcBswMapping. RTA-RTE used SwcInstance '/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_NvM' because it was the only SwcInstance that uses the referenced Internalbehavior '/AUTOSAR_NvM/SwComponentTypes/NvM/NVRAMManager'. - Line: 16. [Infos] &lt;NvM&gt; : &lt;/AUTOSAR_NvM/SwcBswMappings/NvM&gt;</L-2>
+</DESC>
+<CATEGORY>WARN</CATEGORY>
+<SDG GID="ULF">
+<SD GID="ULF-INCIDENT-URL">ecu_config/bsw/gen/bswmd/NvM_Static_Cfg_BSWMD.arxml</SD>
+<SD GID="ULF-SIGNATURE-ALG">DEFAULT</SD>
+<SD GID="ULF-TOOL-NAME">RTA-RTE</SD>
+</SDG>
+<SDG GID="B.WORX_LOGGING">
+<SD GID="editorInputUri">platform:/resource/ParkBrake/ecu_config/bsw/gen/bswmd/NvM_Static_Cfg_BSWMD.arxml#/AUTOSAR_NvM/SwcBswMappings/NvM?type=SwcBswMapping</SD>
+<SD GID="editorID">com.bosch.autosartool.generic.editor</SD>
+<SD GID="project_name">ParkBrake</SD>
+</SDG>
+<SDG GID="BlueWorX Validation">
+<SD GID="PROJECT">ParkBrake</SD>
+<SD GID="valuri_/AUTOSAR_NvM/SwcBswMappings/NvM">platform:/resource/ParkBrake/ecu_config/bsw/gen/bswmd/NvM_Static_Cfg_BSWMD.arxml#/AUTOSAR_NvM/SwcBswMappings/NvM?type=SwcBswMapping</SD>
+<SD GID="KEY_FOR_FILTER">VALUE</SD>
+<SD GID="Resource">/ParkBrake/ecu_config/bsw/gen/bswmd/NvM_Static_Cfg_BSWMD.arxml</SD>
+<SD GID="DOMAIN_VALIDATION">DOMAIN_VALIDATION_TRUE</SD>
+<SD GID="QUALIFIEDNAME">/AUTOSAR_NvM/SwcBswMappings/NvM</SD>
+<SD GID="id">W002150</SD>
+<SD GID="URI">platform:/resource/ParkBrake/ecu_config/bsw/gen/bswmd/NvM_Static_Cfg_BSWMD.arxml#/AUTOSAR_NvM/SwcBswMappings/NvM?type=SwcBswMapping</SD>
+</SDG>
+</LOG-ENTRY>
+<LOG-ENTRY TI="I007801" S="86192b0457efae2aaa8406e450ed91ee" T="2022-02-28T18:00:54.248+0100">
+<SHORT-NAME>RTA-RTE_28</SHORT-NAME>
+<DESC>
+<L-2 L="EN">Target ARObject: &lt;PP_BswMSwcGenericRequest&gt; Provided port 'BswM.PP_BswMSwcGenericRequest' of SW-C instance '/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_BswM' is not connected to a requiring port or there are no OperationInvokedEvents that reference the port. The servers for operations in the categorizing interface will never be activated. - Line: 22. [Infos] &lt;PP_BswMSwcGenericRequest&gt; : &lt;/AUTOSAR_BswM/SwComponentTypes/BswM/PP_BswMSwcGenericRequest&gt;</L-2>
+</DESC>
+<CATEGORY>DEBUG</CATEGORY>
+<SDG GID="ULF">
+<SD GID="ULF-INCIDENT-URL">ecu_config/bsw/gen/swcd/BswM_Cfg_SWCD.arxml</SD>
+<SD GID="ULF-SIGNATURE-ALG">DEFAULT</SD>
+<SD GID="ULF-TOOL-NAME">RTA-RTE</SD>
+</SDG>
+<SDG GID="B.WORX_LOGGING">
+<SD GID="editorInputUri">platform:/resource/ParkBrake/ecu_config/bsw/gen/swcd/BswM_Cfg_SWCD.arxml#/AUTOSAR_BswM/SwComponentTypes/BswM/PP_BswMSwcGenericRequest?type=PPortPrototype</SD>
+<SD GID="editorID">com.bosch.autosartool.generic.editor</SD>
+<SD GID="project_name">ParkBrake</SD>
+</SDG>
+<SDG GID="BlueWorX Validation">
+<SD GID="PROJECT">ParkBrake</SD>
+<SD GID="KEY_FOR_FILTER">VALUE</SD>
+<SD GID="valuri_/AUTOSAR_BswM/SwComponentTypes/BswM/PP_BswMSwcGenericRequest">platform:/resource/ParkBrake/ecu_config/bsw/gen/swcd/BswM_Cfg_SWCD.arxml#/AUTOSAR_BswM/SwComponentTypes/BswM/PP_BswMSwcGenericRequest?type=PPortPrototype</SD>
+<SD GID="Resource">/ParkBrake/ecu_config/bsw/gen/swcd/BswM_Cfg_SWCD.arxml</SD>
+<SD GID="DOMAIN_VALIDATION">DOMAIN_VALIDATION_TRUE</SD>
+<SD GID="QUALIFIEDNAME">/AUTOSAR_BswM/SwComponentTypes/BswM/PP_BswMSwcGenericRequest</SD>
+<SD GID="id">I007801</SD>
+<SD GID="URI">platform:/resource/ParkBrake/ecu_config/bsw/gen/swcd/BswM_Cfg_SWCD.arxml#/AUTOSAR_BswM/SwComponentTypes/BswM/PP_BswMSwcGenericRequest?type=PPortPrototype</SD>
+</SDG>
+</LOG-ENTRY>
+<LOG-ENTRY TI="W002150" S="b26915b42cfc317576f688a12ef33ed0" T="2022-02-28T18:00:54.247+0100">
+<SHORT-NAME>RTA-RTE_29</SHORT-NAME>
+<DESC>
+<L-2 L="EN">Target ARObject: &lt;BswM&gt; No SwcInstance mapped to the ECU references this SwcBswMapping. RTA-RTE used SwcInstance '/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_BswM' because it was the only SwcInstance that uses the referenced Internalbehavior '/AUTOSAR_BswM/SwComponentTypes/BswM/IB_BswM'. - Line: 131. [Infos] &lt;BswM&gt; : &lt;/AUTOSAR_BswM/SwcBswMappings/BswM&gt;</L-2>
+</DESC>
+<CATEGORY>WARN</CATEGORY>
+<SDG GID="ULF">
+<SD GID="ULF-INCIDENT-URL">ecu_config/bsw/gen/swcd/BswM_Cfg_SWCD.arxml</SD>
+<SD GID="ULF-SIGNATURE-ALG">DEFAULT</SD>
+<SD GID="ULF-TOOL-NAME">RTA-RTE</SD>
+</SDG>
+<SDG GID="B.WORX_LOGGING">
+<SD GID="editorInputUri">platform:/resource/ParkBrake/ecu_config/bsw/gen/swcd/BswM_Cfg_SWCD.arxml#/AUTOSAR_BswM/SwcBswMappings/BswM?type=SwcBswMapping</SD>
+<SD GID="editorID">com.bosch.autosartool.generic.editor</SD>
+<SD GID="project_name">ParkBrake</SD>
+</SDG>
+<SDG GID="BlueWorX Validation">
+<SD GID="PROJECT">ParkBrake</SD>
+<SD GID="KEY_FOR_FILTER">VALUE</SD>
+<SD GID="Resource">/ParkBrake/ecu_config/bsw/gen/swcd/BswM_Cfg_SWCD.arxml</SD>
+<SD GID="valuri_/AUTOSAR_BswM/SwcBswMappings/BswM">platform:/resource/ParkBrake/ecu_config/bsw/gen/swcd/BswM_Cfg_SWCD.arxml#/AUTOSAR_BswM/SwcBswMappings/BswM?type=SwcBswMapping</SD>
+<SD GID="DOMAIN_VALIDATION">DOMAIN_VALIDATION_TRUE</SD>
+<SD GID="QUALIFIEDNAME">/AUTOSAR_BswM/SwcBswMappings/BswM</SD>
+<SD GID="id">W002150</SD>
+<SD GID="URI">platform:/resource/ParkBrake/ecu_config/bsw/gen/swcd/BswM_Cfg_SWCD.arxml#/AUTOSAR_BswM/SwcBswMappings/BswM?type=SwcBswMapping</SD>
+</SDG>
+</LOG-ENTRY>
+<LOG-ENTRY TI="W003064" S="a132f6b1d3979f852fbc6d34af8d79d" T="2022-02-28T18:00:54.245+0100">
+<SHORT-NAME>RTA-RTE_30</SHORT-NAME>
+<DESC>
+<L-2 L="EN">Target ARObject: &lt;OPIE_BswMSwcGenericRequest_Server&gt; Event not referenced by an EventToTaskMapping for the instance /RTE/Rte/CPT_BswM. - Line: 47. [Infos] &lt;OPIE_BswMSwcGenericRequest_Server&gt; : &lt;/AUTOSAR_BswM/SwComponentTypes/BswM/IB_BswM/OPIE_BswMSwcGenericRequest_Server&gt;</L-2>
+</DESC>
+<CATEGORY>WARN</CATEGORY>
+<SDG GID="ULF">
+<SD GID="ULF-INCIDENT-URL">ecu_config/bsw/gen/swcd/BswM_Cfg_SWCD.arxml</SD>
+<SD GID="ULF-SIGNATURE-ALG">DEFAULT</SD>
+<SD GID="ULF-TOOL-NAME">RTA-RTE</SD>
+</SDG>
+<SDG GID="B.WORX_LOGGING">
+<SD GID="editorInputUri">platform:/resource/ParkBrake/ecu_config/bsw/gen/swcd/BswM_Cfg_SWCD.arxml#/AUTOSAR_BswM/SwComponentTypes/BswM/IB_BswM/OPIE_BswMSwcGenericRequest_Server?type=OperationInvokedEvent</SD>
+<SD GID="editorID">com.bosch.autosartool.generic.editor</SD>
+<SD GID="project_name">ParkBrake</SD>
+</SDG>
+<SDG GID="BlueWorX Validation">
+<SD GID="PROJECT">ParkBrake</SD>
+<SD GID="KEY_FOR_FILTER">VALUE</SD>
+<SD GID="valuri_/AUTOSAR_BswM/SwComponentTypes/BswM/IB_BswM/OPIE_BswMSwcGenericRequest_Server">platform:/resource/ParkBrake/ecu_config/bsw/gen/swcd/BswM_Cfg_SWCD.arxml#/AUTOSAR_BswM/SwComponentTypes/BswM/IB_BswM/OPIE_BswMSwcGenericRequest_Server?type=OperationInvokedEvent</SD>
+<SD GID="Resource">/ParkBrake/ecu_config/bsw/gen/swcd/BswM_Cfg_SWCD.arxml</SD>
+<SD GID="DOMAIN_VALIDATION">DOMAIN_VALIDATION_TRUE</SD>
+<SD GID="QUALIFIEDNAME">/AUTOSAR_BswM/SwComponentTypes/BswM/IB_BswM/OPIE_BswMSwcGenericRequest_Server</SD>
+<SD GID="id">W003064</SD>
+<SD GID="URI">platform:/resource/ParkBrake/ecu_config/bsw/gen/swcd/BswM_Cfg_SWCD.arxml#/AUTOSAR_BswM/SwComponentTypes/BswM/IB_BswM/OPIE_BswMSwcGenericRequest_Server?type=OperationInvokedEvent</SD>
+</SDG>
+</LOG-ENTRY>
+<LOG-ENTRY TI="W001205" S="2b45f7c4f4ab376945e3a1e31c19c1db" T="2022-02-28T18:00:54.248+0100">
+<SHORT-NAME>RTA-RTE_31</SHORT-NAME>
+<DESC>
+<L-2 L="EN">Target ARObject: &lt;ComM&gt; Software-component type 'ComM' does not have any provided or required ports. - Line: 41. [Infos] &lt;ComM&gt; : &lt;/AUTOSAR_ComM/SwComponentTypes/ComM&gt;</L-2>
+</DESC>
+<CATEGORY>WARN</CATEGORY>
+<SDG GID="ULF">
+<SD GID="ULF-INCIDENT-URL">ecu_config/bsw/gen/swcd/ComM_Cfg_SWCD.arxml</SD>
+<SD GID="ULF-SIGNATURE-ALG">DEFAULT</SD>
+<SD GID="ULF-TOOL-NAME">RTA-RTE</SD>
+</SDG>
+<SDG GID="B.WORX_LOGGING">
+<SD GID="editorInputUri">platform:/resource/ParkBrake/ecu_config/bsw/gen/swcd/ComM_Cfg_SWCD.arxml#/AUTOSAR_ComM/SwComponentTypes/ComM?type=ServiceSwComponentType</SD>
+<SD GID="editorID">com.bosch.autosartool.generic.editor</SD>
+<SD GID="project_name">ParkBrake</SD>
+</SDG>
+<SDG GID="BlueWorX Validation">
+<SD GID="PROJECT">ParkBrake</SD>
+<SD GID="valuri_/AUTOSAR_ComM/SwComponentTypes/ComM">platform:/resource/ParkBrake/ecu_config/bsw/gen/swcd/ComM_Cfg_SWCD.arxml#/AUTOSAR_ComM/SwComponentTypes/ComM?type=ServiceSwComponentType</SD>
+<SD GID="KEY_FOR_FILTER">VALUE</SD>
+<SD GID="Resource">/ParkBrake/ecu_config/bsw/gen/swcd/ComM_Cfg_SWCD.arxml</SD>
+<SD GID="DOMAIN_VALIDATION">DOMAIN_VALIDATION_TRUE</SD>
+<SD GID="QUALIFIEDNAME">/AUTOSAR_ComM/SwComponentTypes/ComM</SD>
+<SD GID="id">W001205</SD>
+<SD GID="URI">platform:/resource/ParkBrake/ecu_config/bsw/gen/swcd/ComM_Cfg_SWCD.arxml#/AUTOSAR_ComM/SwComponentTypes/ComM?type=ServiceSwComponentType</SD>
+</SDG>
+</LOG-ENTRY>
+<LOG-ENTRY TI="W002150" S="62287a77424cd816882339804782cce5" T="2022-02-28T18:00:54.247+0100">
+<SHORT-NAME>RTA-RTE_32</SHORT-NAME>
+<DESC>
+<L-2 L="EN">Target ARObject: &lt;SwcBswMapping_ComM&gt; No SwcInstance mapped to the ECU references this SwcBswMapping. RTA-RTE used SwcInstance '/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_ComM' because it was the only SwcInstance that uses the referenced Internalbehavior '/AUTOSAR_ComM/SwComponentTypes/ComM/ComM_Int'. - Line: 125. [Infos] &lt;SwcBswMapping_ComM&gt; : &lt;/AUTOSAR_ComM/SwcBswMappings/SwcBswmapping/SwcBswMapping_ComM&gt;</L-2>
+</DESC>
+<CATEGORY>WARN</CATEGORY>
+<SDG GID="ULF">
+<SD GID="ULF-INCIDENT-URL">ecu_config/bsw/gen/swcd/ComM_Cfg_SWCD.arxml</SD>
+<SD GID="ULF-SIGNATURE-ALG">DEFAULT</SD>
+<SD GID="ULF-TOOL-NAME">RTA-RTE</SD>
+</SDG>
+<SDG GID="B.WORX_LOGGING">
+<SD GID="editorInputUri">platform:/resource/ParkBrake/ecu_config/bsw/gen/swcd/ComM_Cfg_SWCD.arxml#/AUTOSAR_ComM/SwcBswMappings/SwcBswmapping/SwcBswMapping_ComM?type=SwcBswMapping</SD>
+<SD GID="editorID">com.bosch.autosartool.generic.editor</SD>
+<SD GID="project_name">ParkBrake</SD>
+</SDG>
+<SDG GID="BlueWorX Validation">
+<SD GID="valuri_/AUTOSAR_ComM/SwcBswMappings/SwcBswmapping/SwcBswMapping_ComM">platform:/resource/ParkBrake/ecu_config/bsw/gen/swcd/ComM_Cfg_SWCD.arxml#/AUTOSAR_ComM/SwcBswMappings/SwcBswmapping/SwcBswMapping_ComM?type=SwcBswMapping</SD>
+<SD GID="PROJECT">ParkBrake</SD>
+<SD GID="KEY_FOR_FILTER">VALUE</SD>
+<SD GID="Resource">/ParkBrake/ecu_config/bsw/gen/swcd/ComM_Cfg_SWCD.arxml</SD>
+<SD GID="DOMAIN_VALIDATION">DOMAIN_VALIDATION_TRUE</SD>
+<SD GID="QUALIFIEDNAME">/AUTOSAR_ComM/SwcBswMappings/SwcBswmapping/SwcBswMapping_ComM</SD>
+<SD GID="id">W002150</SD>
+<SD GID="URI">platform:/resource/ParkBrake/ecu_config/bsw/gen/swcd/ComM_Cfg_SWCD.arxml#/AUTOSAR_ComM/SwcBswMappings/SwcBswmapping/SwcBswMapping_ComM?type=SwcBswMapping</SD>
+</SDG>
+</LOG-ENTRY>
+<LOG-ENTRY TI="W002151" S="29acc9c78e4a18e40f8168801ec74122" T="2022-02-28T18:00:54.247+0100">
+<SHORT-NAME>RTA-RTE_33</SHORT-NAME>
+<DESC>
+<L-2 L="EN">Target ARObject: &lt;SwcBswMapping_ComM&gt; No BswImplementation mapped to the ECU references this SwcBswMapping. RTA-RTE used BswImplementation '/AUTOSAR_ComM/BswImplementations/ComM' because it was the only BswImplementation that uses the referenced Internalbehavior '/AUTOSAR_ComM/BswModuleDescriptions/ComM/BswInternalBehavior'. - Line: 125. [Infos] &lt;SwcBswMapping_ComM&gt; : &lt;/AUTOSAR_ComM/SwcBswMappings/SwcBswmapping/SwcBswMapping_ComM&gt;</L-2>
+</DESC>
+<CATEGORY>WARN</CATEGORY>
+<SDG GID="ULF">
+<SD GID="ULF-INCIDENT-URL">ecu_config/bsw/gen/swcd/ComM_Cfg_SWCD.arxml</SD>
+<SD GID="ULF-SIGNATURE-ALG">DEFAULT</SD>
+<SD GID="ULF-TOOL-NAME">RTA-RTE</SD>
+</SDG>
+<SDG GID="B.WORX_LOGGING">
+<SD GID="editorInputUri">platform:/resource/ParkBrake/ecu_config/bsw/gen/swcd/ComM_Cfg_SWCD.arxml#/AUTOSAR_ComM/SwcBswMappings/SwcBswmapping/SwcBswMapping_ComM?type=SwcBswMapping</SD>
+<SD GID="editorID">com.bosch.autosartool.generic.editor</SD>
+<SD GID="project_name">ParkBrake</SD>
+</SDG>
+<SDG GID="BlueWorX Validation">
+<SD GID="valuri_/AUTOSAR_ComM/SwcBswMappings/SwcBswmapping/SwcBswMapping_ComM">platform:/resource/ParkBrake/ecu_config/bsw/gen/swcd/ComM_Cfg_SWCD.arxml#/AUTOSAR_ComM/SwcBswMappings/SwcBswmapping/SwcBswMapping_ComM?type=SwcBswMapping</SD>
+<SD GID="PROJECT">ParkBrake</SD>
+<SD GID="KEY_FOR_FILTER">VALUE</SD>
+<SD GID="Resource">/ParkBrake/ecu_config/bsw/gen/swcd/ComM_Cfg_SWCD.arxml</SD>
+<SD GID="DOMAIN_VALIDATION">DOMAIN_VALIDATION_TRUE</SD>
+<SD GID="QUALIFIEDNAME">/AUTOSAR_ComM/SwcBswMappings/SwcBswmapping/SwcBswMapping_ComM</SD>
+<SD GID="id">W002151</SD>
+<SD GID="URI">platform:/resource/ParkBrake/ecu_config/bsw/gen/swcd/ComM_Cfg_SWCD.arxml#/AUTOSAR_ComM/SwcBswMappings/SwcBswmapping/SwcBswMapping_ComM?type=SwcBswMapping</SD>
+</SDG>
+</LOG-ENTRY>
+<LOG-ENTRY TI="I007801" S="99a638a6286fc3cdbcfe46f739fde61c" T="2022-02-28T18:00:54.249+0100">
+<SHORT-NAME>RTA-RTE_34</SHORT-NAME>
+<DESC>
+<L-2 L="EN">Target ARObject: &lt;bootTarget&gt; Provided port 'EcuM.bootTarget' of SW-C instance '/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_EcuM' is not connected to a requiring port or there are no OperationInvokedEvents that reference the port. The servers for operations in the categorizing interface will never be activated. - Line: 20. [Infos] &lt;bootTarget&gt; : &lt;/AUTOSAR_EcuM/SwComponentTypes/EcuM/bootTarget&gt;</L-2>
+</DESC>
+<CATEGORY>DEBUG</CATEGORY>
+<SDG GID="ULF">
+<SD GID="ULF-INCIDENT-URL">ecu_config/bsw/gen/swcd/EcuM_Cfg_SWCD.arxml</SD>
+<SD GID="ULF-SIGNATURE-ALG">DEFAULT</SD>
+<SD GID="ULF-TOOL-NAME">RTA-RTE</SD>
+</SDG>
+<SDG GID="B.WORX_LOGGING">
+<SD GID="editorInputUri">platform:/resource/ParkBrake/ecu_config/bsw/gen/swcd/EcuM_Cfg_SWCD.arxml#/AUTOSAR_EcuM/SwComponentTypes/EcuM/bootTarget?type=PPortPrototype</SD>
+<SD GID="editorID">com.bosch.autosartool.generic.editor</SD>
+<SD GID="project_name">ParkBrake</SD>
+</SDG>
+<SDG GID="BlueWorX Validation">
+<SD GID="PROJECT">ParkBrake</SD>
+<SD GID="KEY_FOR_FILTER">VALUE</SD>
+<SD GID="Resource">/ParkBrake/ecu_config/bsw/gen/swcd/EcuM_Cfg_SWCD.arxml</SD>
+<SD GID="DOMAIN_VALIDATION">DOMAIN_VALIDATION_TRUE</SD>
+<SD GID="QUALIFIEDNAME">/AUTOSAR_EcuM/SwComponentTypes/EcuM/bootTarget</SD>
+<SD GID="id">I007801</SD>
+<SD GID="URI">platform:/resource/ParkBrake/ecu_config/bsw/gen/swcd/EcuM_Cfg_SWCD.arxml#/AUTOSAR_EcuM/SwComponentTypes/EcuM/bootTarget?type=PPortPrototype</SD>
+<SD GID="valuri_/AUTOSAR_EcuM/SwComponentTypes/EcuM/bootTarget">platform:/resource/ParkBrake/ecu_config/bsw/gen/swcd/EcuM_Cfg_SWCD.arxml#/AUTOSAR_EcuM/SwComponentTypes/EcuM/bootTarget?type=PPortPrototype</SD>
+</SDG>
+</LOG-ENTRY>
+<LOG-ENTRY TI="I007801" S="bf5a3f829c43871bd82dd09240471bec" T="2022-02-28T18:00:54.249+0100">
+<SHORT-NAME>RTA-RTE_35</SHORT-NAME>
+<DESC>
+<L-2 L="EN">Target ARObject: &lt;shutdownTarget&gt; Provided port 'EcuM.shutdownTarget' of SW-C instance '/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_EcuM' is not connected to a requiring port or there are no OperationInvokedEvents that reference the port. The servers for operations in the categorizing interface will never be activated. - Line: 16. [Infos] &lt;shutdownTarget&gt; : &lt;/AUTOSAR_EcuM/SwComponentTypes/EcuM/shutdownTarget&gt;</L-2>
+</DESC>
+<CATEGORY>DEBUG</CATEGORY>
+<SDG GID="ULF">
+<SD GID="ULF-INCIDENT-URL">ecu_config/bsw/gen/swcd/EcuM_Cfg_SWCD.arxml</SD>
+<SD GID="ULF-SIGNATURE-ALG">DEFAULT</SD>
+<SD GID="ULF-TOOL-NAME">RTA-RTE</SD>
+</SDG>
+<SDG GID="B.WORX_LOGGING">
+<SD GID="editorInputUri">platform:/resource/ParkBrake/ecu_config/bsw/gen/swcd/EcuM_Cfg_SWCD.arxml#/AUTOSAR_EcuM/SwComponentTypes/EcuM/shutdownTarget?type=PPortPrototype</SD>
+<SD GID="editorID">com.bosch.autosartool.generic.editor</SD>
+<SD GID="project_name">ParkBrake</SD>
+</SDG>
+<SDG GID="BlueWorX Validation">
+<SD GID="PROJECT">ParkBrake</SD>
+<SD GID="KEY_FOR_FILTER">VALUE</SD>
+<SD GID="valuri_/AUTOSAR_EcuM/SwComponentTypes/EcuM/shutdownTarget">platform:/resource/ParkBrake/ecu_config/bsw/gen/swcd/EcuM_Cfg_SWCD.arxml#/AUTOSAR_EcuM/SwComponentTypes/EcuM/shutdownTarget?type=PPortPrototype</SD>
+<SD GID="Resource">/ParkBrake/ecu_config/bsw/gen/swcd/EcuM_Cfg_SWCD.arxml</SD>
+<SD GID="DOMAIN_VALIDATION">DOMAIN_VALIDATION_TRUE</SD>
+<SD GID="QUALIFIEDNAME">/AUTOSAR_EcuM/SwComponentTypes/EcuM/shutdownTarget</SD>
+<SD GID="id">I007801</SD>
+<SD GID="URI">platform:/resource/ParkBrake/ecu_config/bsw/gen/swcd/EcuM_Cfg_SWCD.arxml#/AUTOSAR_EcuM/SwComponentTypes/EcuM/shutdownTarget?type=PPortPrototype</SD>
+</SDG>
+</LOG-ENTRY>
+<LOG-ENTRY TI="I007801" S="d05e2f9f0ec9c382de0367eac124684f" T="2022-02-28T18:00:54.250+0100">
+<SHORT-NAME>RTA-RTE_36</SHORT-NAME>
+<DESC>
+<L-2 L="EN">Target ARObject: &lt;NvM_MultiBlock&gt; Provided port 'NvM.NvM_MultiBlock' of SW-C instance '/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_NvM' is not connected to a requiring port or there are no OperationInvokedEvents that reference the port. The servers for operations in the categorizing interface will never be activated. - Line: 301. [Infos] &lt;NvM_MultiBlock&gt; : &lt;/AUTOSAR_NvM/SwComponentTypes/NvM/NvM_MultiBlock&gt;</L-2>
+</DESC>
+<CATEGORY>DEBUG</CATEGORY>
+<SDG GID="ULF">
+<SD GID="ULF-INCIDENT-URL">ecu_config/bsw/gen/swcd/NvM_Cfg_SWCD.arxml</SD>
+<SD GID="ULF-SIGNATURE-ALG">DEFAULT</SD>
+<SD GID="ULF-TOOL-NAME">RTA-RTE</SD>
+</SDG>
+<SDG GID="B.WORX_LOGGING">
+<SD GID="editorInputUri">platform:/resource/ParkBrake/ecu_config/bsw/gen/swcd/NvM_Cfg_SWCD.arxml#/AUTOSAR_NvM/SwComponentTypes/NvM/NvM_MultiBlock?type=PPortPrototype</SD>
+<SD GID="editorID">com.bosch.autosartool.generic.editor</SD>
+<SD GID="project_name">ParkBrake</SD>
+</SDG>
+<SDG GID="BlueWorX Validation">
+<SD GID="PROJECT">ParkBrake</SD>
+<SD GID="KEY_FOR_FILTER">VALUE</SD>
+<SD GID="valuri_/AUTOSAR_NvM/SwComponentTypes/NvM/NvM_MultiBlock">platform:/resource/ParkBrake/ecu_config/bsw/gen/swcd/NvM_Cfg_SWCD.arxml#/AUTOSAR_NvM/SwComponentTypes/NvM/NvM_MultiBlock?type=PPortPrototype</SD>
+<SD GID="Resource">/ParkBrake/ecu_config/bsw/gen/swcd/NvM_Cfg_SWCD.arxml</SD>
+<SD GID="DOMAIN_VALIDATION">DOMAIN_VALIDATION_TRUE</SD>
+<SD GID="QUALIFIEDNAME">/AUTOSAR_NvM/SwComponentTypes/NvM/NvM_MultiBlock</SD>
+<SD GID="id">I007801</SD>
+<SD GID="URI">platform:/resource/ParkBrake/ecu_config/bsw/gen/swcd/NvM_Cfg_SWCD.arxml#/AUTOSAR_NvM/SwComponentTypes/NvM/NvM_MultiBlock?type=PPortPrototype</SD>
+</SDG>
+</LOG-ENTRY>
+<LOG-ENTRY TI="I007801" S="4047331afef4728b2c154bead9a114ba" T="2022-02-28T18:00:54.249+0100">
+<SHORT-NAME>RTA-RTE_37</SHORT-NAME>
+<DESC>
+<L-2 L="EN">Target ARObject: &lt;NvM_ConfigId&gt; Provided port 'NvM.NvM_ConfigId' of SW-C instance '/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_NvM' is not connected to a requiring port or there are no OperationInvokedEvents that reference the port. The servers for operations in the categorizing interface will never be activated. - Line: 355. [Infos] &lt;NvM_ConfigId&gt; : &lt;/AUTOSAR_NvM/SwComponentTypes/NvM/NvM_ConfigId&gt;</L-2>
+</DESC>
+<CATEGORY>DEBUG</CATEGORY>
+<SDG GID="ULF">
+<SD GID="ULF-INCIDENT-URL">ecu_config/bsw/gen/swcd/NvM_Cfg_SWCD.arxml</SD>
+<SD GID="ULF-SIGNATURE-ALG">DEFAULT</SD>
+<SD GID="ULF-TOOL-NAME">RTA-RTE</SD>
+</SDG>
+<SDG GID="B.WORX_LOGGING">
+<SD GID="editorInputUri">platform:/resource/ParkBrake/ecu_config/bsw/gen/swcd/NvM_Cfg_SWCD.arxml#/AUTOSAR_NvM/SwComponentTypes/NvM/NvM_ConfigId?type=PPortPrototype</SD>
+<SD GID="editorID">com.bosch.autosartool.generic.editor</SD>
+<SD GID="project_name">ParkBrake</SD>
+</SDG>
+<SDG GID="BlueWorX Validation">
+<SD GID="PROJECT">ParkBrake</SD>
+<SD GID="valuri_/AUTOSAR_NvM/SwComponentTypes/NvM/NvM_ConfigId">platform:/resource/ParkBrake/ecu_config/bsw/gen/swcd/NvM_Cfg_SWCD.arxml#/AUTOSAR_NvM/SwComponentTypes/NvM/NvM_ConfigId?type=PPortPrototype</SD>
+<SD GID="KEY_FOR_FILTER">VALUE</SD>
+<SD GID="Resource">/ParkBrake/ecu_config/bsw/gen/swcd/NvM_Cfg_SWCD.arxml</SD>
+<SD GID="DOMAIN_VALIDATION">DOMAIN_VALIDATION_TRUE</SD>
+<SD GID="QUALIFIEDNAME">/AUTOSAR_NvM/SwComponentTypes/NvM/NvM_ConfigId</SD>
+<SD GID="id">I007801</SD>
+<SD GID="URI">platform:/resource/ParkBrake/ecu_config/bsw/gen/swcd/NvM_Cfg_SWCD.arxml#/AUTOSAR_NvM/SwComponentTypes/NvM/NvM_ConfigId?type=PPortPrototype</SD>
+</SDG>
+</LOG-ENTRY>
+<LOG-ENTRY TI="RTTM_Editor_AR4X_01" S="feb3c98fac1beba766c87011b39ec56f" T="2022-02-28T17:59:49.807+0100">
+<SHORT-NAME>ISOLAR-A_1</SHORT-NAME>
+<DESC>
+<L-2 L="EN">Mapped events having different period for the OsTask Container /OS/Os/OsTask_BSW</L-2>
+</DESC>
+<CATEGORY>SYSTEM</CATEGORY>
+<SDG GID="ULF">
+<SD GID="ULF-INCIDENT-URL">ecu_config/os/internal/Os_EcucValues.arxml</SD>
+<SD GID="ULF-SIGNATURE-ALG">DEFAULT</SD>
+<SD GID="ULF-LINE-NUMBER-START">0</SD>
+<SD GID="ULF-TOOL-NAME">ISOLAR-A</SD>
+</SDG>
+<SDG GID="B.WORX_LOGGING">
+<SD GID="project_name">ParkBrake</SD>
+</SDG>
+<SDG GID="BlueWorX Validation">
+<SD GID="PROJECT">ParkBrake</SD>
+<SD GID="CustomTargetURI">platform:/resource/ParkBrake/ecu_config/os/internal/Os_EcucValues.arxml#/OS/Os/OsTask_BSW?type=EcucContainerValue</SD>
+<SD GID="constraintPluginId">com.bosch.autosartool.common.util</SD>
+<SD GID="Resource">/ParkBrake/ecu_config/os/internal/Os_EcucValues.arxml</SD>
+<SD GID="CategoryName">ISOLAR-A</SD>
+<SD GID="DOMAIN_VALIDATION">DOMAIN_VALIDATION_TRUE</SD>
+<SD GID="QUALIFIEDNAME">/OS/Os/OsTask_BSW</SD>
+<SD GID="UUID">001</SD>
+<SD GID="URI">platform:/resource/ParkBrake/ecu_config/os/internal/Os_EcucValues.arxml#/OS/Os/OsTask_BSW?type=EcucContainerValue</SD>
+</SDG>
+</LOG-ENTRY>
+<LOG-ENTRY TI="RTTM_Editor_AR4X_01" S="3237f8962909b89016c6991d55491e76" T="2022-02-28T17:59:49.807+0100">
+<SHORT-NAME>ISOLAR-A_2</SHORT-NAME>
+<DESC>
+<L-2 L="EN">Mapped events having different period for the OsTask Container /OS/Os/OsTask_ASW_PeriodicEvents</L-2>
+</DESC>
+<CATEGORY>SYSTEM</CATEGORY>
+<SDG GID="ULF">
+<SD GID="ULF-INCIDENT-URL">ecu_config/os/internal/Os_EcucValues.arxml</SD>
+<SD GID="ULF-SIGNATURE-ALG">DEFAULT</SD>
+<SD GID="ULF-LINE-NUMBER-START">0</SD>
+<SD GID="ULF-TOOL-NAME">ISOLAR-A</SD>
+</SDG>
+<SDG GID="B.WORX_LOGGING">
+<SD GID="project_name">ParkBrake</SD>
+</SDG>
+<SDG GID="BlueWorX Validation">
+<SD GID="PROJECT">ParkBrake</SD>
+<SD GID="CustomTargetURI">platform:/resource/ParkBrake/ecu_config/os/internal/Os_EcucValues.arxml#/OS/Os/OsTask_ASW_PeriodicEvents?type=EcucContainerValue</SD>
+<SD GID="constraintPluginId">com.bosch.autosartool.common.util</SD>
+<SD GID="Resource">/ParkBrake/ecu_config/os/internal/Os_EcucValues.arxml</SD>
+<SD GID="CategoryName">ISOLAR-A</SD>
+<SD GID="DOMAIN_VALIDATION">DOMAIN_VALIDATION_TRUE</SD>
+<SD GID="QUALIFIEDNAME">/OS/Os/OsTask_ASW_PeriodicEvents</SD>
+<SD GID="UUID">001</SD>
+<SD GID="URI">platform:/resource/ParkBrake/ecu_config/os/internal/Os_EcucValues.arxml#/OS/Os/OsTask_ASW_PeriodicEvents?type=EcucContainerValue</SD>
+</SDG>
+</LOG-ENTRY>
+</ULF-PROCESSING-LOG>

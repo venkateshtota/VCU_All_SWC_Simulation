@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AUTOSAR xmlns="http://autosar.org/schema/r4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://autosar.org/schema/r4.0 AUTOSAR_4-2-2.xsd">
+  <AR-PACKAGES>
+    <AR-PACKAGE>
+      <SHORT-NAME>ParkBrake_FlatView</SHORT-NAME>
+      <AR-PACKAGES>
+        <AR-PACKAGE>
+          <SHORT-NAME>SwComponentTypes</SHORT-NAME>
+          <ELEMENTS>
+            <COMPOSITION-SW-COMPONENT-TYPE>
+              <SHORT-NAME>ParkBrake_FlatView</SHORT-NAME>
+              <PORTS>
+                <P-PORT-PROTOTYPE>
+                  <SHORT-NAME>PP_comParkStatus</SHORT-NAME>
+                  <PROVIDED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/PortInterfaces/SR_IF_ParkState</PROVIDED-INTERFACE-TREF>
+                </P-PORT-PROTOTYPE>
+                <R-PORT-PROTOTYPE>
+                  <SHORT-NAME>RP_comParkControl</SHORT-NAME>
+                  <REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/PortInterfaces/SR_IF_ParkState</REQUIRED-INTERFACE-TREF>
+                </R-PORT-PROTOTYPE>
+              </PORTS>
+              <COMPONENTS>
+                <SW-COMPONENT-PROTOTYPE>
+                  <SHORT-NAME>CPT_ComSWC</SHORT-NAME>
+                  <TYPE-TREF DEST="APPLICATION-SW-COMPONENT-TYPE">/ComSWC/ComSWC</TYPE-TREF>
+                </SW-COMPONENT-PROTOTYPE>
+                <SW-COMPONENT-PROTOTYPE>
+                  <SHORT-NAME>CPT_MemSWC</SHORT-NAME>
+                  <TYPE-TREF DEST="APPLICATION-SW-COMPONENT-TYPE">/MemSWC/MemSWC</TYPE-TREF>
+                </SW-COMPONENT-PROTOTYPE>
+                <SW-COMPONENT-PROTOTYPE>
+                  <SHORT-NAME>CPT_ParkSWC</SHORT-NAME>
+                  <TYPE-TREF DEST="APPLICATION-SW-COMPONENT-TYPE">/ParkSWC/ParkSWC</TYPE-TREF>
+                </SW-COMPONENT-PROTOTYPE>
+                <SW-COMPONENT-PROTOTYPE>
+                  <SHORT-NAME>CPT_SystemSWC</SHORT-NAME>
+                  <TYPE-TREF DEST="APPLICATION-SW-COMPONENT-TYPE">/SystemSWC/SystemSWC</TYPE-TREF>
+                </SW-COMPONENT-PROTOTYPE>
+                <SW-COMPONENT-PROTOTYPE UUID="07ae601e-2aaa-46e1-8804-f6fa25b7c2e0">
+                  <SHORT-NAME>CPT_ComM</SHORT-NAME>
+                  <TYPE-TREF DEST="SERVICE-SW-COMPONENT-TYPE">/AUTOSAR_ComM/SwComponentTypes/ComM</TYPE-TREF>
+                </SW-COMPONENT-PROTOTYPE>
+                <SW-COMPONENT-PROTOTYPE UUID="781de799-5604-498f-81ea-52fb33567ea8">
+                  <SHORT-NAME>CPT_NvM</SHORT-NAME>
+                  <TYPE-TREF DEST="SERVICE-SW-COMPONENT-TYPE">/AUTOSAR_NvM/SwComponentTypes/NvM</TYPE-TREF>
+                </SW-COMPONENT-PROTOTYPE>
+                <SW-COMPONENT-PROTOTYPE UUID="1f16618b-9904-48cf-9933-476045c3f869">
+                  <SHORT-NAME>CPT_EcuM</SHORT-NAME>
+                  <TYPE-TREF DEST="SERVICE-SW-COMPONENT-TYPE">/AUTOSAR_EcuM/SwComponentTypes/EcuM</TYPE-TREF>
+                </SW-COMPONENT-PROTOTYPE>
+                <SW-COMPONENT-PROTOTYPE UUID="7b664384-9bbc-4dbd-8402-56ab8113d98a">
+                  <SHORT-NAME>CPT_BswM</SHORT-NAME>
+                  <TYPE-TREF DEST="SERVICE-SW-COMPONENT-TYPE">/AUTOSAR_BswM/SwComponentTypes/BswM</TYPE-TREF>
+                </SW-COMPONENT-PROTOTYPE>
+              </COMPONENTS>
+              <CONNECTORS>
+                <ASSEMBLY-SW-CONNECTOR>
+                  <SHORT-NAME>ASC_CPT_ComSWC_PP_ParkControl_CPT_ParkSWC_RP_ParkControl</SHORT-NAME>
+                  <PROVIDER-IREF>
+                    <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_ComSWC</CONTEXT-COMPONENT-REF>
+                    <TARGET-P-PORT-REF DEST="P-PORT-PROTOTYPE">/ComSWC/ComSWC/PP_ParkControl</TARGET-P-PORT-REF>
+                  </PROVIDER-IREF>
+                  <REQUESTER-IREF>
+                    <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_ParkSWC</CONTEXT-COMPONENT-REF>
+                    <TARGET-R-PORT-REF DEST="R-PORT-PROTOTYPE">/ParkSWC/ParkSWC/RP_ParkControl</TARGET-R-PORT-REF>
+                  </REQUESTER-IREF>
+                </ASSEMBLY-SW-CONNECTOR>
+                <ASSEMBLY-SW-CONNECTOR>
+                  <SHORT-NAME>ASC_CPT_ParkSWC_PP_ParkStatus_CPT_ComSWC_RP_ParkStatus</SHORT-NAME>
+                  <PROVIDER-IREF>
+                    <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_ParkSWC</CONTEXT-COMPONENT-REF>
+                    <TARGET-P-PORT-REF DEST="P-PORT-PROTOTYPE">/ParkSWC/ParkSWC/PP_ParkStatus</TARGET-P-PORT-REF>
+                  </PROVIDER-IREF>
+                  <REQUESTER-IREF>
+                    <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_ComSWC</CONTEXT-COMPONENT-REF>
+                    <TARGET-R-PORT-REF DEST="R-PORT-PROTOTYPE">/ComSWC/ComSWC/RP_ParkStatus</TARGET-R-PORT-REF>
+                  </REQUESTER-IREF>
+                </ASSEMBLY-SW-CONNECTOR>
+                <ASSEMBLY-SW-CONNECTOR>
+                  <SHORT-NAME>ASC_CPT_ParkSWC_PP_ParkStatus_CPT_MemSWC_RP_ParkStatus</SHORT-NAME>
+                  <PROVIDER-IREF>
+                    <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_ParkSWC</CONTEXT-COMPONENT-REF>
+                    <TARGET-P-PORT-REF DEST="P-PORT-PROTOTYPE">/ParkSWC/ParkSWC/PP_ParkStatus</TARGET-P-PORT-REF>
+                  </PROVIDER-IREF>
+                  <REQUESTER-IREF>
+                    <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_MemSWC</CONTEXT-COMPONENT-REF>
+                    <TARGET-R-PORT-REF DEST="R-PORT-PROTOTYPE">/MemSWC/MemSWC/RP_ParkStatus</TARGET-R-PORT-REF>
+                  </REQUESTER-IREF>
+                </ASSEMBLY-SW-CONNECTOR>
+                <DELEGATION-SW-CONNECTOR>
+                  <SHORT-NAME>DSC_CPT_ComSWC_PP_comParkStatus_PP_comParkStatus</SHORT-NAME>
+                  <INNER-PORT-IREF>
+                    <P-PORT-IN-COMPOSITION-INSTANCE-REF>
+                      <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_ComSWC</CONTEXT-COMPONENT-REF>
+                      <TARGET-P-PORT-REF DEST="P-PORT-PROTOTYPE">/ComSWC/ComSWC/PP_comParkStatus</TARGET-P-PORT-REF>
+                    </P-PORT-IN-COMPOSITION-INSTANCE-REF>
+                  </INNER-PORT-IREF>
+                  <OUTER-PORT-REF DEST="P-PORT-PROTOTYPE">/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/PP_comParkStatus</OUTER-PORT-REF>
+                </DELEGATION-SW-CONNECTOR>
+                <DELEGATION-SW-CONNECTOR>
+                  <SHORT-NAME>DSC_CPT_ComSWC_RP_comParkControl_RP_comParkControl</SHORT-NAME>
+                  <INNER-PORT-IREF>
+                    <R-PORT-IN-COMPOSITION-INSTANCE-REF>
+                      <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_ComSWC</CONTEXT-COMPONENT-REF>
+                      <TARGET-R-PORT-REF DEST="R-PORT-PROTOTYPE">/ComSWC/ComSWC/RP_comParkControl</TARGET-R-PORT-REF>
+                    </R-PORT-IN-COMPOSITION-INSTANCE-REF>
+                  </INNER-PORT-IREF>
+                  <OUTER-PORT-REF DEST="R-PORT-PROTOTYPE">/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/RP_comParkControl</OUTER-PORT-REF>
+                </DELEGATION-SW-CONNECTOR>
+                <ASSEMBLY-SW-CONNECTOR>
+                  <SHORT-NAME>ASC_CPT_NvM_NvM_NativeBlock_2_CPT_MemSWC_RP_NvM_ParkStatus</SHORT-NAME>
+                  <PROVIDER-IREF>
+                    <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_NvM</CONTEXT-COMPONENT-REF>
+                    <TARGET-P-PORT-REF DEST="P-PORT-PROTOTYPE">/AUTOSAR_NvM/SwComponentTypes/NvM/NvM_NativeBlock_2</TARGET-P-PORT-REF>
+                  </PROVIDER-IREF>
+                  <REQUESTER-IREF>
+                    <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_MemSWC</CONTEXT-COMPONENT-REF>
+                    <TARGET-R-PORT-REF DEST="R-PORT-PROTOTYPE">/MemSWC/MemSWC/RP_NvM_ParkStatus</TARGET-R-PORT-REF>
+                  </REQUESTER-IREF>
+                </ASSEMBLY-SW-CONNECTOR>
+                <ASSEMBLY-SW-CONNECTOR>
+                  <SHORT-NAME>ASC_CPT_SystemSWC_PP_ShutdownRequest_CPT_BswM_RP_BswM_MRP_SwcModeRequest</SHORT-NAME>
+                  <PROVIDER-IREF>
+                    <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_SystemSWC</CONTEXT-COMPONENT-REF>
+                    <TARGET-P-PORT-REF DEST="P-PORT-PROTOTYPE">/SystemSWC/SystemSWC/PP_ShutdownRequest</TARGET-P-PORT-REF>
+                  </PROVIDER-IREF>
+                  <REQUESTER-IREF>
+                    <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/ParkBrake_FlatView/SwComponentTypes/ParkBrake_FlatView/CPT_BswM</CONTEXT-COMPONENT-REF>
+                    <TARGET-R-PORT-REF DEST="R-PORT-PROTOTYPE">/AUTOSAR_BswM/SwComponentTypes/BswM/RP_BswM_MRP_SwcModeRequest</TARGET-R-PORT-REF>
+                  </REQUESTER-IREF>
+                </ASSEMBLY-SW-CONNECTOR>
+              </CONNECTORS>
+            </COMPOSITION-SW-COMPONENT-TYPE>
+          </ELEMENTS>
+        </AR-PACKAGE>
+      </AR-PACKAGES>
+    </AR-PACKAGE>
+  </AR-PACKAGES>
+</AUTOSAR>
+

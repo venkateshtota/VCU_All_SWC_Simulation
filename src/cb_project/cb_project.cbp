@@ -1,0 +1,1649 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="cb_project" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/cb_project" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-m32" />
+					<Add option="-g" />
+					<Add option="-DNOT_READY_FOR_TESTING_OR_DEPLOYMENT" />
+					<Add option="-DOSENV_RTAOS40" />
+					<Add directory="../bsw" />
+					<Add directory="../bsw/Bfx" />
+					<Add directory="../bsw/Bfx/api" />
+					<Add directory="../bsw/Bfx/integration" />
+					<Add directory="../bsw/BswM/api" />
+					<Add directory="../bsw/BswM/integration" />
+					<Add directory="../bsw/BswM/src" />
+					<Add directory="../bsw/BswM_PreCompile_and_PB_Variant" />
+					<Add directory="../bsw/CanIf" />
+					<Add directory="../bsw/CanIf/api" />
+					<Add directory="../bsw/CanIf/integration" />
+					<Add directory="../bsw/CanIf/src" />
+					<Add directory="../bsw/CanSM" />
+					<Add directory="../bsw/CanSM/api" />
+					<Add directory="../bsw/CanSM/integration" />
+					<Add directory="../bsw/CanSM/src" />
+					<Add directory="../bsw/Com" />
+					<Add directory="../bsw/Com/api" />
+					<Add directory="../bsw/Com/integration" />
+					<Add directory="../bsw/Com/src" />
+					<Add directory="../bsw/ComM" />
+					<Add directory="../bsw/ComM/api" />
+					<Add directory="../bsw/ComM/integration" />
+					<Add directory="../bsw/ComM/src" />
+					<Add directory="../bsw/ComStack" />
+					<Add directory="../bsw/ComStack/api" />
+					<Add directory="../bsw/Crc" />
+					<Add directory="../bsw/Crc/integration" />
+					<Add directory="../bsw/Crc/src" />
+					<Add directory="../bsw/EcuM" />
+					<Add directory="../bsw/EcuM/api" />
+					<Add directory="../bsw/EcuM/integration" />
+					<Add directory="../bsw/EcuM/src" />
+					<Add directory="../bsw/Fee" />
+					<Add directory="../bsw/Fee/api" />
+					<Add directory="../bsw/Fee/integration" />
+					<Add directory="../bsw/Fee/src" />
+					<Add directory="../bsw/MemIf" />
+					<Add directory="../bsw/MemIf/api" />
+					<Add directory="../bsw/MemIf/integration" />
+					<Add directory="../bsw/NvM" />
+					<Add directory="../bsw/NvM/api" />
+					<Add directory="../bsw/NvM/integration" />
+					<Add directory="../bsw/NvM/src" />
+					<Add directory="../bsw/NvM/src/Internal/BlockData" />
+					<Add directory="../bsw/NvM/src/Internal/Crc" />
+					<Add directory="../bsw/NvM/src/Internal/CryptoServices" />
+					<Add directory="../bsw/NvM/src/Internal/ErrorDetection" />
+					<Add directory="../bsw/NvM/src/Internal/ExplicitSynchronization" />
+					<Add directory="../bsw/NvM/src/Internal/InternalBuffer" />
+					<Add directory="../bsw/NvM/src/Internal/JobHandling" />
+					<Add directory="../bsw/NvM/src/Internal/JobResource" />
+					<Add directory="../bsw/NvM/src/Internal/MemIf" />
+					<Add directory="../bsw/NvM/src/Internal/ProcessMultiBlock" />
+					<Add directory="../bsw/NvM/src/Internal/QueueHandling" />
+					<Add directory="../bsw/NvM/src/Internal/Service" />
+					<Add directory="../bsw/PduR" />
+					<Add directory="../bsw/PduR/api" />
+					<Add directory="../bsw/PduR/integration" />
+					<Add directory="../bsw/Rba_FeeFs1/integration" />
+					<Add directory="../bsw/Rba_FeeFs1/src" />
+					<Add directory="../bsw/Rba_MemLib" />
+					<Add directory="../bsw/Rba_MemLib/api" />
+					<Add directory="../bsw/Rba_MemLib/integration" />
+					<Add directory="../bsw/Rba_MemLib/src" />
+					<Add directory="../bsw/Rba_MemLib/src/rba_MemLib_Check" />
+					<Add directory="../bsw/integration" />
+					<Add directory="../bsw/integration/Memmap" />
+					<Add directory="../bsw/integration/SchM" />
+					<Add directory="../bsw/integration/rba_BswSrv/api" />
+					<Add directory="../integration" />
+					<Add directory="../integration/Stubs" />
+					<Add directory="../mcal" />
+					<Add directory="../os" />
+					<Add directory="../rte" />
+					<Add directory="C:/Program Files (x86)/ETAS/BOA_V2/Include" />
+				</Compiler>
+				<Linker>
+					<Add option="-static" />
+					<Add option="-m32" />
+					<Add option="-Wl,-Map=main.map" />
+					<Add library="../os/RTAOS.lib" />
+					<Add library="winmm" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/cb_project" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="../asw/ComSWC.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../asw/DlnStMgr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../asw/DlnStMgr.h" />
+		<Unit filename="../asw/DlnStMgr_MemMap.h" />
+		<Unit filename="../asw/DlnStMgr_private.h" />
+		<Unit filename="../asw/DlnStMgr_types.h" />
+		<Unit filename="../asw/DrvrItp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../asw/DrvrItp.h" />
+		<Unit filename="../asw/DrvrItp_MemMap.h" />
+		<Unit filename="../asw/DrvrItp_private.h" />
+		<Unit filename="../asw/DrvrItp_types.h" />
+		<Unit filename="../asw/EgyTqLimr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../asw/EgyTqLimr.h" />
+		<Unit filename="../asw/EgyTqLimr_MemMap.h" />
+		<Unit filename="../asw/EgyTqLimr_private.h" />
+		<Unit filename="../asw/EgyTqLimr_types.h" />
+		<Unit filename="../asw/EmTqFil.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../asw/EmTqFil.h" />
+		<Unit filename="../asw/EmTqFil_MemMap.h" />
+		<Unit filename="../asw/EmTqFil_private.h" />
+		<Unit filename="../asw/EmTqFil_types.h" />
+		<Unit filename="../asw/MemSWC.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../asw/ParkSWC.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../asw/SystemSWC.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../asw/TqSplt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../asw/TqSplt.h" />
+		<Unit filename="../asw/TqSplt_MemMap.h" />
+		<Unit filename="../asw/TqSplt_private.h" />
+		<Unit filename="../asw/TqSplt_types.h" />
+		<Unit filename="../asw/VehMtnInp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../asw/VehMtnInp.h" />
+		<Unit filename="../asw/VehMtnInp_MemMap.h" />
+		<Unit filename="../asw/VehMtnInp_private.h" />
+		<Unit filename="../asw/VehMtnInp_types.h" />
+		<Unit filename="../asw/look1_iflf_binlcapw.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../asw/look1_iflf_binlcapw.h" />
+		<Unit filename="../asw/look2_iflf_binlcapw.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../asw/look2_iflf_binlcapw.h" />
+		<Unit filename="../asw/readme.txt" />
+		<Unit filename="../asw/rtwtypes.h" />
+		<Unit filename="../bsw/Bfx/Bfx_Cfg.h" />
+		<Unit filename="../bsw/Bfx/api/Bfx.h" />
+		<Unit filename="../bsw/Bfx/api/Bfx_Bit_Inl.h" />
+		<Unit filename="../bsw/Bfx/api/Bfx_Types.h" />
+		<Unit filename="../bsw/Bfx/integration/Bfx_MemMap.h" />
+		<Unit filename="../bsw/Bfx/src/Bfx_Bit.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Bfx/src/Bfx_GetVersionInfo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Bfx/src/Bfx_TstParityEven_u16_u8.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Bfx/src/Bfx_TstParityEven_u32_u8.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Bfx/src/Bfx_TstParityEven_u64_u8.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Bfx/src/Bfx_TstParityEven_u8_u8.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/BswM/api/BswM.h" />
+		<Unit filename="../bsw/BswM/api/BswM_CanSM.h" />
+		<Unit filename="../bsw/BswM/api/BswM_ComM.h" />
+		<Unit filename="../bsw/BswM/api/BswM_DCM.h" />
+		<Unit filename="../bsw/BswM/api/BswM_EcuM.h" />
+		<Unit filename="../bsw/BswM/api/BswM_EthIf.h" />
+		<Unit filename="../bsw/BswM/api/BswM_EthSM.h" />
+		<Unit filename="../bsw/BswM/api/BswM_FrSM.h" />
+		<Unit filename="../bsw/BswM/api/BswM_Generic.h" />
+		<Unit filename="../bsw/BswM/api/BswM_J1939Dcm.h" />
+		<Unit filename="../bsw/BswM/api/BswM_J1939Nm.h" />
+		<Unit filename="../bsw/BswM/api/BswM_LinSM.h" />
+		<Unit filename="../bsw/BswM/api/BswM_LinTp.h" />
+		<Unit filename="../bsw/BswM/api/BswM_Nm.h" />
+		<Unit filename="../bsw/BswM/api/BswM_NvM.h" />
+		<Unit filename="../bsw/BswM/api/BswM_Prv_AC.h" />
+		<Unit filename="../bsw/BswM/api/BswM_Prv_AL.h" />
+		<Unit filename="../bsw/BswM/api/BswM_Prv_RL.h" />
+		<Unit filename="../bsw/BswM/api/BswM_Sd.h" />
+		<Unit filename="../bsw/BswM/api/BswM_Types.h" />
+		<Unit filename="../bsw/BswM/api/BswM_WdgM.h" />
+		<Unit filename="../bsw/BswM/integration/BswM_Appl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/BswM/integration/BswM_Cfg_MemMap.h" />
+		<Unit filename="../bsw/BswM/integration/BswM_Cfg_SchM.h" />
+		<Unit filename="../bsw/BswM/integration/BswM_MemMap.h" />
+		<Unit filename="../bsw/BswM/src/BswM.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/BswM/src/BswM_CanSM.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/BswM/src/BswM_ComM.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/BswM/src/BswM_DCM.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/BswM/src/BswM_EcuM.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/BswM/src/BswM_EthIf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/BswM/src/BswM_EthSM.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/BswM/src/BswM_FrSM.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/BswM/src/BswM_Generic.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/BswM/src/BswM_J1939Dcm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/BswM/src/BswM_J1939Nm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/BswM/src/BswM_LinSM.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/BswM/src/BswM_LinTp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/BswM/src/BswM_Nm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/BswM/src/BswM_NvM.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/BswM/src/BswM_Prv.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/BswM/src/BswM_Prv.h" />
+		<Unit filename="../bsw/BswM/src/BswM_Prv_AC.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/BswM/src/BswM_Prv_AL.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/BswM/src/BswM_Prv_IntrptQueue.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/BswM/src/BswM_Prv_IntrptQueue.h" />
+		<Unit filename="../bsw/BswM/src/BswM_Prv_MRP.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/BswM/src/BswM_Prv_MRP.h" />
+		<Unit filename="../bsw/BswM/src/BswM_Prv_ProcessDeferredRequest.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/BswM/src/BswM_Prv_ProcessDeferredRequest.h" />
+		<Unit filename="../bsw/BswM/src/BswM_Prv_ProcessDelayedReqst.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/BswM/src/BswM_Prv_ProcessDelayedReqst.h" />
+		<Unit filename="../bsw/BswM/src/BswM_Prv_RL.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/BswM/src/BswM_Sd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/BswM/src/BswM_WdgM.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/BswM_PreCompile_and_PB_Variant/BswM_Cfg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/BswM_PreCompile_and_PB_Variant/BswM_Cfg.h" />
+		<Unit filename="../bsw/BswM_PreCompile_and_PB_Variant/BswM_Cfg_AC.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/BswM_PreCompile_and_PB_Variant/BswM_Cfg_AC.h" />
+		<Unit filename="../bsw/BswM_PreCompile_and_PB_Variant/BswM_Cfg_General.h" />
+		<Unit filename="../bsw/BswM_PreCompile_and_PB_Variant/BswM_Cfg_LE.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/BswM_PreCompile_and_PB_Variant/BswM_Cfg_LE.h" />
+		<Unit filename="../bsw/BswM_PreCompile_and_PB_Variant/BswM_Cfg_MRP.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/BswM_PreCompile_and_PB_Variant/BswM_Cfg_MRP.h" />
+		<Unit filename="../bsw/BswM_PreCompile_and_PB_Variant/BswM_Cfg_ModeManagerReq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/BswM_PreCompile_and_PB_Variant/BswM_Cfg_RL.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/BswM_PreCompile_and_PB_Variant/BswM_Cfg_RL.h" />
+		<Unit filename="../bsw/BswM_PreCompile_and_PB_Variant/BswM_PBcfg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/BswM_PreCompile_and_PB_Variant/BswM_PBcfg.h" />
+		<Unit filename="../bsw/CanIf/CanIf_Cfg.h" />
+		<Unit filename="../bsw/CanIf/CanIf_PBcfg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/CanIf/CanIf_PBcfg.h" />
+		<Unit filename="../bsw/CanIf/CanIf_cfg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/CanIf/api/CanIf.h" />
+		<Unit filename="../bsw/CanIf/api/CanIf_Cbk.h" />
+		<Unit filename="../bsw/CanIf/api/CanIf_Types.h" />
+		<Unit filename="../bsw/CanIf/integration/CanIfAppl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/CanIf/integration/CanIf_Cfg_SchM.h" />
+		<Unit filename="../bsw/CanIf/integration/CanIf_ControllerModeIndication_Integration.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/CanIf/integration/CanIf_Integration.h" />
+		<Unit filename="../bsw/CanIf/integration/CanIf_MemMap.h" />
+		<Unit filename="../bsw/CanIf/integration/CanIf_RxIndication_Integration.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/CanIf/integration/CanIf_SetControllerMode_Integration.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/CanIf/integration/CanIf_Write_Integration.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/CanIf/integration/Can_GeneralTypes.h" />
+		<Unit filename="../bsw/CanIf/src/CanIf_Baudrate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/CanIf/src/CanIf_Controller.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/CanIf/src/CanIf_GetTxConfirmationState.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/CanIf/src/CanIf_GetVersionInfo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/CanIf/src/CanIf_Init.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/CanIf/src/CanIf_PduMode.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/CanIf/src/CanIf_Prv.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/CanIf/src/CanIf_Prv.h" />
+		<Unit filename="../bsw/CanIf/src/CanIf_Prv_Buffer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/CanIf/src/CanIf_Rb_Apis.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/CanIf/src/CanIf_ReadNotifStatus.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/CanIf/src/CanIf_ReadRxPduData.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/CanIf/src/CanIf_RxIndication.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/CanIf/src/CanIf_SetDynamicTxId.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/CanIf/src/CanIf_Shared.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/CanIf/src/CanIf_Transceiver.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/CanIf/src/CanIf_Transmit.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/CanIf/src/CanIf_TriggerTransmit.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/CanIf/src/CanIf_TxConfirmation.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/CanIf/src/CanIf_Wakeup.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/CanIf/src/CanIf_XCore.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/CanSM/CanSM_Cfg.h" />
+		<Unit filename="../bsw/CanSM/CanSM_PBcfg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/CanSM/CanSM_PBcfg.h" />
+		<Unit filename="../bsw/CanSM/api/CanSM.h" />
+		<Unit filename="../bsw/CanSM/api/CanSM_BswM.h" />
+		<Unit filename="../bsw/CanSM/api/CanSM_Cbk.h" />
+		<Unit filename="../bsw/CanSM/api/CanSM_ComM.h" />
+		<Unit filename="../bsw/CanSM/api/CanSM_TxTimeoutException.h" />
+		<Unit filename="../bsw/CanSM/integration/CanSM_Cfg_SchM.h" />
+		<Unit filename="../bsw/CanSM/integration/CanSM_MemMap.h" />
+		<Unit filename="../bsw/CanSM/src/CanSM_CheckTransceiverWakeFlagIndication.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/CanSM/src/CanSM_ClearTrcvWufFlagIndication.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/CanSM/src/CanSM_ConfirmPnAvailability.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/CanSM/src/CanSM_ControllerBusoff.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/CanSM/src/CanSM_ControllerModeIndication.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/CanSM/src/CanSM_GetCurrentComMode.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/CanSM/src/CanSM_GetVersionInfo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/CanSM/src/CanSM_Init.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/CanSM/src/CanSM_InternalStateTransition.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/CanSM/src/CanSM_Main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/CanSM/src/CanSM_NetworkModes.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/CanSM/src/CanSM_Prv.h" />
+		<Unit filename="../bsw/CanSM/src/CanSM_RequestComMode.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/CanSM/src/CanSM_SetBaudrate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/CanSM/src/CanSM_SetEcuPassive.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/CanSM/src/CanSM_StartWakeupSource.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/CanSM/src/CanSM_StopWakeupSource.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/CanSM/src/CanSM_TransceiverModeIndication.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/CanSM/src/CanSM_TxTimeoutException.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/CodeGen_Version.h" />
+		<Unit filename="../bsw/ComM/ComM_Cfg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/ComM/ComM_Cfg.h" />
+		<Unit filename="../bsw/ComM/ComM_Cfg_Internal.h" />
+		<Unit filename="../bsw/ComM/ComM_Main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/ComM/ComM_Main.h" />
+		<Unit filename="../bsw/ComM/ComM_PBcfg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/ComM/ComM_PBcfg.h" />
+		<Unit filename="../bsw/ComM/api/ComM.h" />
+		<Unit filename="../bsw/ComM/api/ComM_BusSM.h" />
+		<Unit filename="../bsw/ComM/api/ComM_Dcm.h" />
+		<Unit filename="../bsw/ComM/api/ComM_EcuMBswM.h" />
+		<Unit filename="../bsw/ComM/api/ComM_Nm.h" />
+		<Unit filename="../bsw/ComM/api/ComM_Types.h" />
+		<Unit filename="../bsw/ComM/integration/ComMAppl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/ComM/integration/ComM_Cfg_SchM.h" />
+		<Unit filename="../bsw/ComM/integration/ComM_MemMap.h" />
+		<Unit filename="../bsw/ComM/src/ComM.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/ComM/src/ComM_BusSM_ModeIndication.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/ComM/src/ComM_CommunicationAllowed.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/ComM/src/ComM_Dcm_ActiveDiagnostic.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/ComM/src/ComM_Dcm_InactiveDiagnostic.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/ComM/src/ComM_DeInit.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/ComM/src/ComM_EcuM_PNCWakeUpIndication.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/ComM/src/ComM_EcuM_WakeupIndication.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/ComM/src/ComM_GetCurrentComMode.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/ComM/src/ComM_GetInhibitionStatus.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/ComM/src/ComM_GetMaxComMode.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/ComM/src/ComM_GetRequestedComMode.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/ComM/src/ComM_GetState.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/ComM/src/ComM_GetStatus.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/ComM/src/ComM_GetVersionInfo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/ComM/src/ComM_Init.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/ComM/src/ComM_LChannelMainFunction.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/ComM/src/ComM_LPncMainFunction.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/ComM/src/ComM_LUpdateFullComRequestors.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/ComM/src/ComM_LimitChannelToNoComMode.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/ComM/src/ComM_LimitECUToNoComMode.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/ComM/src/ComM_Nm_BusSleepMode.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/ComM/src/ComM_Nm_NetworkMode.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/ComM/src/ComM_Nm_NetworkStartIndication.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/ComM/src/ComM_Nm_PrepareBusSleepMode.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/ComM/src/ComM_Nm_RestartIndication.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/ComM/src/ComM_PreventWakeUp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/ComM/src/ComM_Priv.h" />
+		<Unit filename="../bsw/ComM/src/ComM_ReadInhibitCounter.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/ComM/src/ComM_RequestComMode.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/ComM/src/ComM_ResetInhibitCounter.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/ComM/src/ComM_SetECUGroupClassification.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/ComStack/ComStack_Cfg.h" />
+		<Unit filename="../bsw/ComStack/api/ComStack_Types.h" />
+		<Unit filename="../bsw/Com/Com_Cbk.h" />
+		<Unit filename="../bsw/Com/Com_Cfg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Com/Com_Cfg.h" />
+		<Unit filename="../bsw/Com/Com_Cfg_Internal.h" />
+		<Unit filename="../bsw/Com/Com_Cfg_SymbolicNames.h" />
+		<Unit filename="../bsw/Com/Com_PBcfg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Com/Com_PBcfg.h" />
+		<Unit filename="../bsw/Com/Com_PBcfg_Common.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Com/Com_PBcfg_Common.h" />
+		<Unit filename="../bsw/Com/Com_PBcfg_InternalSymbolicNames.h" />
+		<Unit filename="../bsw/Com/Com_PBcfg_Variant.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Com/Com_PBcfg_Variant.h" />
+		<Unit filename="../bsw/Com/api/Com.h" />
+		<Unit filename="../bsw/Com/integration/ComAppl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Com/integration/Com_Cfg_SchM.h" />
+		<Unit filename="../bsw/Com/integration/Com_Integration.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Com/integration/Com_MemMap.h" />
+		<Unit filename="../bsw/Com/src/Com_BusLoadManagement.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Com/src/Com_ByteCopy.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Com/src/Com_ByteCopyInit.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Com/src/Com_CopyRxData.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Com/src/Com_CopyTxData.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Com/src/Com_DeInit.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Com/src/Com_EnableRxDm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Com/src/Com_Filter.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Com/src/Com_GetStatus.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Com/src/Com_GetVersionInfo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Com/src/Com_Init.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Com/src/Com_InvalidateShadowSignal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Com/src/Com_InvalidateSignal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Com/src/Com_InvalidateSignalGroup.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Com/src/Com_IpduGroupStart.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Com/src/Com_IpduGroupStop.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Com/src/Com_MainFunctionRouteSignals.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Com/src/Com_MainFunctionRx.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Com/src/Com_MainFunctionTx.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Com/src/Com_PackGwMappings.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Com/src/Com_PackSignal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Com/src/Com_ProcessSignal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Com/src/Com_ProcessSignalGroup.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Com/src/Com_Prv.h" />
+		<Unit filename="../bsw/Com/src/Com_Prv_Inl.h" />
+		<Unit filename="../bsw/Com/src/Com_Prv_Types.h" />
+		<Unit filename="../bsw/Com/src/Com_ReceiveDynSignal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Com/src/Com_ReceiveShadowSignal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Com/src/Com_ReceiveSignal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Com/src/Com_ReceiveSignalGroup.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Com/src/Com_ReceiveSignalGroupArray.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Com/src/Com_ReceiveSignalGroupArrayWithMetaData.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Com/src/Com_ReceiveSignalGroupWithMetaData.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Com/src/Com_ReceiveSignalWithMetadata.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Com/src/Com_RxIndication.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Com/src/Com_SendDynSignal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Com/src/Com_SendIpdu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Com/src/Com_SendSignal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Com/src/Com_SendSignalGroup.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Com/src/Com_SendSignalGroupArray.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Com/src/Com_SendSignalGroupArrayWithMetaData.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Com/src/Com_SendSignalGroupWithMetaData.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Com/src/Com_SendSignalWithMetaData.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Com/src/Com_ShadowBuffToIpduBuff.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Com/src/Com_StartOfReception.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Com/src/Com_SwitchIpduTxMode.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Com/src/Com_TpRxIndication.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Com/src/Com_TpTxConfirmation.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Com/src/Com_TriggerIPDUSend.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Com/src/Com_TriggerIPDUSendWithMetaData.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Com/src/Com_TriggerTransmit.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Com/src/Com_TxChangeMode.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Com/src/Com_TxConfirmation.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Com/src/Com_UnpackSignal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Com/src/Com_UpdateShadowSignal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Crc/Crc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Crc/Crc.h" />
+		<Unit filename="../bsw/Crc/Crc_Cfg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Crc/Crc_Cfg.h" />
+		<Unit filename="../bsw/Crc/integration/Crc_MemMap.h" />
+		<Unit filename="../bsw/Crc/src/Crc_Prv_Ifx_Hw.h" />
+		<Unit filename="../bsw/Crc/src/Crc_Prv_RH850_Hw.h" />
+		<Unit filename="../bsw/Crc/src/Crc_Prv_St_Hw.h" />
+		<Unit filename="../bsw/EcuM/EcuM_Cfg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/EcuM/EcuM_Cfg.h" />
+		<Unit filename="../bsw/EcuM/EcuM_Cfg_CbkStartup.h" />
+		<Unit filename="../bsw/EcuM/EcuM_Cfg_PbExt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/EcuM/EcuM_Cfg_PbExt.h" />
+		<Unit filename="../bsw/EcuM/EcuM_Cfg_RbExt.h" />
+		<Unit filename="../bsw/EcuM/EcuM_Cfg_RbMo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/EcuM/EcuM_Cfg_RbMo.h" />
+		<Unit filename="../bsw/EcuM/EcuM_Cfg_Shutdown.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/EcuM/EcuM_Cfg_Sleep.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/EcuM/EcuM_Cfg_Startup.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/EcuM/EcuM_Cfg_Startup.h" />
+		<Unit filename="../bsw/EcuM/EcuM_Cfg_SynchPoint.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/EcuM/EcuM_Cfg_SynchPoint.h" />
+		<Unit filename="../bsw/EcuM/EcuM_Cfg_Version.h" />
+		<Unit filename="../bsw/EcuM/EcuM_Generated_Types.h" />
+		<Unit filename="../bsw/EcuM/EcuM_Lcfg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/EcuM/EcuM_PBcfg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/EcuM/api/EcuM.h" />
+		<Unit filename="../bsw/EcuM/api/EcuM_Callout.h" />
+		<Unit filename="../bsw/EcuM/api/EcuM_Cbk.h" />
+		<Unit filename="../bsw/EcuM/api/EcuM_Types.h" />
+		<Unit filename="../bsw/EcuM/integration/EcuM_Callout_Stubs.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/EcuM/integration/EcuM_Cfg_MemMap.h" />
+		<Unit filename="../bsw/EcuM/integration/EcuM_Cfg_SchM.h" />
+		<Unit filename="../bsw/EcuM/integration/EcuM_CompilerSpecific.h" />
+		<Unit filename="../bsw/EcuM/integration/EcuM_MemMap.h" />
+		<Unit filename="../bsw/EcuM/integration/EcuM_RunTime.h" />
+		<Unit filename="../bsw/EcuM/src/EcuM_BootTarget.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/EcuM/src/EcuM_CurrentState.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/EcuM/src/EcuM_KillAllRequests.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/EcuM/src/EcuM_MainFunction.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/EcuM/src/EcuM_Misc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/EcuM/src/EcuM_Prv.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/EcuM/src/EcuM_Prv.h" />
+		<Unit filename="../bsw/EcuM/src/EcuM_Prv_RteActions.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/EcuM/src/EcuM_Prv_RteActions.h" />
+		<Unit filename="../bsw/EcuM/src/EcuM_ReleasePOST_RUN.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/EcuM/src/EcuM_ReleaseRUN.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/EcuM/src/EcuM_RequestPOST_RUN.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/EcuM/src/EcuM_RequestRUN.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/EcuM/src/EcuM_SetState.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/EcuM/src/EcuM_Shutdown.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/EcuM/src/EcuM_ShutdownServices.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/EcuM/src/EcuM_Sleep.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/EcuM/src/EcuM_Startup.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/EcuM/src/EcuM_WakeupServices.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Fee/Fee_Cfg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Fee/Fee_Cfg.h" />
+		<Unit filename="../bsw/Fee/Fee_Idx_Cfg.h" />
+		<Unit filename="../bsw/Fee/Fee_Rb_Idx.h" />
+		<Unit filename="../bsw/Fee/api/Fee.h" />
+		<Unit filename="../bsw/Fee/api/Fee_Rb_Types.h" />
+		<Unit filename="../bsw/Fee/integration/Fee_Cfg_SchM.h" />
+		<Unit filename="../bsw/Fee/integration/Fee_MemMap.h" />
+		<Unit filename="../bsw/Fee/src/Fee_Config.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Fee/src/Fee_Dbg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Fee/src/Fee_Job.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Fee/src/Fee_Lib.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Fee/src/Fee_Medium.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Fee/src/Fee_Order.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Fee/src/Fee_Proc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Fee/src/Fee_Prv.h" />
+		<Unit filename="../bsw/Fee/src/Fee_Prv_Config.h" />
+		<Unit filename="../bsw/Fee/src/Fee_Prv_Dbg.h" />
+		<Unit filename="../bsw/Fee/src/Fee_Prv_FsIf.h" />
+		<Unit filename="../bsw/Fee/src/Fee_Prv_Job.h" />
+		<Unit filename="../bsw/Fee/src/Fee_Prv_Lib.h" />
+		<Unit filename="../bsw/Fee/src/Fee_Prv_Medium.h" />
+		<Unit filename="../bsw/Fee/src/Fee_Prv_Order.h" />
+		<Unit filename="../bsw/Fee/src/Fee_Prv_Proc.h" />
+		<Unit filename="../bsw/MemIf/MemIf_Cfg.h" />
+		<Unit filename="../bsw/MemIf/api/MemIf.h" />
+		<Unit filename="../bsw/MemIf/api/MemIf_Types.h" />
+		<Unit filename="../bsw/MemIf/integration/MemIf_Cfg_SchM.h" />
+		<Unit filename="../bsw/MemIf/integration/MemIf_MemMap.h" />
+		<Unit filename="../bsw/MemIf/src/MemIf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/MemIf/src/MemIf_MainFunction.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/MemIf/src/MemIf_Rb_GetStatus.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/MemIf/src/MemIf_Rb_MainFunction.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/NvM_Cfg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/NvM_Cfg.h" />
+		<Unit filename="../bsw/NvM/api/NvM.h" />
+		<Unit filename="../bsw/NvM/api/NvM_Cbk.h" />
+		<Unit filename="../bsw/NvM/api/NvM_Types.h" />
+		<Unit filename="../bsw/NvM/integration/NvM_Cfg_SchM.h" />
+		<Unit filename="../bsw/NvM/integration/NvM_MemMap.h" />
+		<Unit filename="../bsw/NvM/integration/NvM_Prv_SizeRamMirror.h" />
+		<Unit filename="../bsw/NvM/src/AuxiliaryRequests/Asynchronous/NvM_Rb_AuxInvalidateNvBlock.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/AuxiliaryRequests/Asynchronous/NvM_Rb_AuxReadBlock.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/AuxiliaryRequests/Asynchronous/NvM_Rb_AuxWriteBlock.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/AuxiliaryRequests/Synchronous/NvM_Rb_AuxGetDataIndex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/AuxiliaryRequests/Synchronous/NvM_Rb_AuxGetErrorStatus.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/AuxiliaryRequests/Synchronous/NvM_Rb_AuxGetMigrationResult.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/AuxiliaryRequests/Synchronous/NvM_Rb_AuxSetDataIndex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/CommonRequests/NvM_GetVersionInfo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/CommonRequests/NvM_Init.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/CommonRequests/NvM_Rb_GetActiveService.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/CommonRequests/NvM_Rb_GetRequestType.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/CommonRequests/NvM_Rb_GetStatus.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/Internal/BlockData/NvM_BlockData.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/Internal/BlockData/NvM_Prv_BlockData.h" />
+		<Unit filename="../bsw/NvM/src/Internal/BlockData/NvM_Prv_BlockData_Inl.h" />
+		<Unit filename="../bsw/NvM/src/Internal/BlockData/NvM_Prv_BlockData_WriteCntr_Inl.h" />
+		<Unit filename="../bsw/NvM/src/Internal/BlockData/NvM_Prv_BlockDescriptor.h" />
+		<Unit filename="../bsw/NvM/src/Internal/BlockData/NvM_Prv_BlockDescriptor_Inl.h" />
+		<Unit filename="../bsw/NvM/src/Internal/Crc/NvM_Crc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/Internal/Crc/NvM_Prv_Crc.h" />
+		<Unit filename="../bsw/NvM/src/Internal/Crc/NvM_Prv_Crc_Types.h" />
+		<Unit filename="../bsw/NvM/src/Internal/CryptoServices/NvM_Crypto.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/Internal/CryptoServices/NvM_Csm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/Internal/CryptoServices/NvM_Prv_Crypto.h" />
+		<Unit filename="../bsw/NvM/src/Internal/CryptoServices/NvM_Prv_Crypto_InternalTypes.h" />
+		<Unit filename="../bsw/NvM/src/Internal/CryptoServices/NvM_Prv_Crypto_ServiceTypes.h" />
+		<Unit filename="../bsw/NvM/src/Internal/CryptoServices/NvM_Prv_Crypto_Types.h" />
+		<Unit filename="../bsw/NvM/src/Internal/CryptoServices/NvM_Prv_Csm.h" />
+		<Unit filename="../bsw/NvM/src/Internal/CryptoServices/NvM_Prv_Csm_Types.h" />
+		<Unit filename="../bsw/NvM/src/Internal/ErrorDetection/NvM_ErrorDetection.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/Internal/ErrorDetection/NvM_Prv_ErrorDetection.h" />
+		<Unit filename="../bsw/NvM/src/Internal/ExplicitSynchronization/NvM_ExplicitSynchronization.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/Internal/ExplicitSynchronization/NvM_Prv_ExplicitSynchronization.h" />
+		<Unit filename="../bsw/NvM/src/Internal/InternalBuffer/NvM_InternalBuffer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/Internal/InternalBuffer/NvM_Prv_InternalBuffer.h" />
+		<Unit filename="../bsw/NvM/src/Internal/InternalBuffer/NvM_Prv_InternalBuffer_Types.h" />
+		<Unit filename="../bsw/NvM/src/Internal/JobHandling/NvM_Job.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/Internal/JobHandling/NvM_JobInvalidate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/Internal/JobHandling/NvM_JobMaintain.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/Internal/JobHandling/NvM_JobRead.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/Internal/JobHandling/NvM_JobRecalcRamBlkCrc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/Internal/JobHandling/NvM_JobRestore.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/Internal/JobHandling/NvM_JobValidate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/Internal/JobHandling/NvM_JobWrite.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/Internal/JobHandling/NvM_Prv_Job.h" />
+		<Unit filename="../bsw/NvM/src/Internal/JobHandling/NvM_Prv_Job_Types.h" />
+		<Unit filename="../bsw/NvM/src/Internal/JobResource/NvM_JobResource.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/Internal/JobResource/NvM_Prv_JobResource.h" />
+		<Unit filename="../bsw/NvM/src/Internal/MemIf/NvM_MemIf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/Internal/MemIf/NvM_Prv_MemIf.h" />
+		<Unit filename="../bsw/NvM/src/Internal/Monitoring/NvM_Rb_WriteMon.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/Internal/ProcessMultiBlock/NvM_ProcessMultiBlock.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/Internal/ProcessMultiBlock/NvM_Prv_ProcessMultiBlock.h" />
+		<Unit filename="../bsw/NvM/src/Internal/QueueHandling/NvM_JobQueue.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/Internal/QueueHandling/NvM_Prv_JobQueue.h" />
+		<Unit filename="../bsw/NvM/src/Internal/QueueHandling/NvM_Prv_Queue.h" />
+		<Unit filename="../bsw/NvM/src/Internal/QueueHandling/NvM_Prv_Queue_Types.h" />
+		<Unit filename="../bsw/NvM/src/Internal/QueueHandling/NvM_Prv_RequestQueue.h" />
+		<Unit filename="../bsw/NvM/src/Internal/QueueHandling/NvM_Queue.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/Internal/QueueHandling/NvM_RequestQueue.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/Internal/Service/NvM_Prv_Service.h" />
+		<Unit filename="../bsw/NvM/src/Internal/Service/NvM_Service.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/MultiBlockRequests/NvM_CancelWriteAll.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/MultiBlockRequests/NvM_InitAfterReadAll.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/MultiBlockRequests/NvM_Rb_FirstInitAll.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/MultiBlockRequests/NvM_ReadAll.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/MultiBlockRequests/NvM_ValidateAll.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/MultiBlockRequests/NvM_WriteAll.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/NvM_Asserts.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/NvM_Prv.h" />
+		<Unit filename="../bsw/NvM/src/NvM_Prv_HideRteApi.h" />
+		<Unit filename="../bsw/NvM/src/ScheduledFunctions/NvM_MainFunction.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/ScheduledFunctions/NvM_MainFunctionArbitrate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/ScheduledFunctions/NvM_MainFunctionJobStart.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/ScheduledFunctions/NvM_MainFunctionResultEval.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/SingleBlockRequests/Asynchronous/NvM_EraseNvBlock.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/SingleBlockRequests/Asynchronous/NvM_InvalidateNvBlock.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/SingleBlockRequests/Asynchronous/NvM_ReadBlock.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/SingleBlockRequests/Asynchronous/NvM_RestoreBlockDefaults.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/SingleBlockRequests/Asynchronous/NvM_WriteBlock.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/SingleBlockRequests/Synchronous/NvM_GetDataIndex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/SingleBlockRequests/Synchronous/NvM_GetErrorStatus.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/SingleBlockRequests/Synchronous/NvM_Rb_GetBlockId.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/SingleBlockRequests/Synchronous/NvM_Rb_GetMigrationResult.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/SingleBlockRequests/Synchronous/NvM_Rb_GetNvBlockLength.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/SingleBlockRequests/Synchronous/NvM_Rb_GetWriteCounter.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/SingleBlockRequests/Synchronous/NvM_Rb_SetWriteAllTrigger.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/SingleBlockRequests/Synchronous/NvM_SetBlockLockStatus.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/SingleBlockRequests/Synchronous/NvM_SetBlockProtection.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/SingleBlockRequests/Synchronous/NvM_SetDataIndex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/NvM/src/SingleBlockRequests/Synchronous/NvM_SetRamBlockStatus.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/PduR/PduR_CanIf.h" />
+		<Unit filename="../bsw/PduR/PduR_CanIf_Lo.h" />
+		<Unit filename="../bsw/PduR/PduR_Cfg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/PduR/PduR_Cfg.h" />
+		<Unit filename="../bsw/PduR/PduR_Cfg_Internal.h" />
+		<Unit filename="../bsw/PduR/PduR_Cfg_SymbolicNames.h" />
+		<Unit filename="../bsw/PduR/PduR_Com.h" />
+		<Unit filename="../bsw/PduR/PduR_Com_Up.h" />
+		<Unit filename="../bsw/PduR/PduR_Gw_Cfg.h" />
+		<Unit filename="../bsw/PduR/PduR_LoIf.h" />
+		<Unit filename="../bsw/PduR/PduR_PBcfg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/PduR/PduR_PBcfg.h" />
+		<Unit filename="../bsw/PduR/PduR_UpIf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/PduR/PduR_UpIf.h" />
+		<Unit filename="../bsw/PduR/PduR_UpTp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/PduR/PduR_UpTp.h" />
+		<Unit filename="../bsw/PduR/PduR_dLoIf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/PduR/api/PduR.h" />
+		<Unit filename="../bsw/PduR/api/PduR_BufferPool.h" />
+		<Unit filename="../bsw/PduR/api/PduR_Gw.h" />
+		<Unit filename="../bsw/PduR/api/PduR_Mc.h" />
+		<Unit filename="../bsw/PduR/api/PduR_Prv.h" />
+		<Unit filename="../bsw/PduR/api/PduR_Types.h" />
+		<Unit filename="../bsw/PduR/integration/PduRAppl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/PduR/integration/PduR_Cfg_SchM.h" />
+		<Unit filename="../bsw/PduR/integration/PduR_MemMap.h" />
+		<Unit filename="../bsw/PduR/src/PduR_BufferPool.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/PduR/src/PduR_EnableDisableRouting.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/PduR/src/PduR_Gateway_DDIfTransmit_FiFo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/PduR/src/PduR_Gateway_DDIfTxConf_FiFo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/PduR/src/PduR_Gateway_DDIfTxConf_NoBuf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/PduR/src/PduR_Gateway_IfRxInd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/PduR/src/PduR_Gateway_TTIfTransmit_Buf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/PduR/src/PduR_Gateway_TTIfTransmit_FiFo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/PduR/src/PduR_Gateway_TTIfTrigTx_Buf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/PduR/src/PduR_Gateway_TTIfTrigTx_FiFo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/PduR/src/PduR_Gateway_TTIfTxConf_Buf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/PduR/src/PduR_Gateway_TTIfTxConf_FiFo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/PduR/src/PduR_Gateway_TpDcmTx.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/PduR/src/PduR_Gateway_TpRx.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/PduR/src/PduR_Gateway_TpTx.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/PduR/src/PduR_Gateway_TpTxConf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/PduR/src/PduR_Gateway_UpIf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/PduR/src/PduR_GetBuffer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/PduR/src/PduR_GetConfigurationId.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/PduR/src/PduR_GetVersionInfo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/PduR/src/PduR_Globals.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/PduR/src/PduR_Init.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/PduR/src/PduR_InvalidId_If.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/PduR/src/PduR_InvalidId_Tp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/PduR/src/PduR_InvalidId_UpTx.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/PduR/src/PduR_Multicast_UpToLo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/PduR/src/PduR_Multicast_UpTx.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/PduR/src/PduR_NullFunc_TrigTx.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/PduR/src/PduR_Null_UpIf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/PduR/src/PduR_RPG_TpRx.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Rba_FeeFs1/integration/rba_FeeFs1_SyncRead.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Rba_FeeFs1/integration/rba_FeeFs1_SyncRead.h" />
+		<Unit filename="../bsw/Rba_FeeFs1/src/rba_FeeFs1_BlockMaintenance.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Rba_FeeFs1/src/rba_FeeFs1_Cancel.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Rba_FeeFs1/src/rba_FeeFs1_Cbk.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Rba_FeeFs1/src/rba_FeeFs1_Cbk.h" />
+		<Unit filename="../bsw/Rba_FeeFs1/src/rba_FeeFs1_Det.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Rba_FeeFs1/src/rba_FeeFs1_EraseImmediateBlock.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Rba_FeeFs1/src/rba_FeeFs1_GetJobResult.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Rba_FeeFs1/src/rba_FeeFs1_GetStatus.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Rba_FeeFs1/src/rba_FeeFs1_GetVersionInfo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Rba_FeeFs1/src/rba_FeeFs1_HlMaintainBlock.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Rba_FeeFs1/src/rba_FeeFs1_HlOrderHandling.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Rba_FeeFs1/src/rba_FeeFs1_HlReadBlock.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Rba_FeeFs1/src/rba_FeeFs1_HlWriteBlock.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Rba_FeeFs1/src/rba_FeeFs1_Init.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Rba_FeeFs1/src/rba_FeeFs1_InvalidateBlock.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Rba_FeeFs1/src/rba_FeeFs1_LlBlockHandling.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Rba_FeeFs1/src/rba_FeeFs1_LlDetectSector.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Rba_FeeFs1/src/rba_FeeFs1_LlErase.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Rba_FeeFs1/src/rba_FeeFs1_LlMarker.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Rba_FeeFs1/src/rba_FeeFs1_LlSearchBlk.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Rba_FeeFs1/src/rba_FeeFs1_LlSectorHandling.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Rba_FeeFs1/src/rba_FeeFs1_LlWriteBlock.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Rba_FeeFs1/src/rba_FeeFs1_MainFunction.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Rba_FeeFs1/src/rba_FeeFs1_Prv.h" />
+		<Unit filename="../bsw/Rba_FeeFs1/src/rba_FeeFs1_Read.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Rba_FeeFs1/src/rba_FeeFs1_SetMode.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Rba_FeeFs1/src/rba_FeeFs1_Srv.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Rba_FeeFs1/src/rba_FeeFs1_Write.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Rba_MemLib/api/rba_MemLib.h" />
+		<Unit filename="../bsw/Rba_MemLib/integration/rba_MemLib_Cfg_Callouts.h" />
+		<Unit filename="../bsw/Rba_MemLib/integration/rba_MemLib_Cfg_Callouts_MaxFeature.h" />
+		<Unit filename="../bsw/Rba_MemLib/integration/rba_MemLib_Cfg_Callouts_MinFeature.h" />
+		<Unit filename="../bsw/Rba_MemLib/integration/rba_MemLib_Cfg_Callouts_UseTimer.h" />
+		<Unit filename="../bsw/Rba_MemLib/integration/rba_MemLib_Cfg_SchM.h" />
+		<Unit filename="../bsw/Rba_MemLib/integration/rba_MemLib_MemMap.h" />
+		<Unit filename="../bsw/Rba_MemLib/rba_MemLib_Cfg.h" />
+		<Unit filename="../bsw/Rba_MemLib/rba_MemLib_UseRte.h" />
+		<Unit filename="../bsw/Rba_MemLib/src/rba_MemLib.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Rba_MemLib/src/rba_MemLib_Check/rba_MemLib_CheckProto.h" />
+		<Unit filename="../bsw/Rba_MemLib/src/rba_MemLib_Inl.h" />
+		<Unit filename="../bsw/Rba_MemLib/src/rba_MemLib_Mem.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Rba_MemLib/src/rba_MemLib_Prv.h" />
+		<Unit filename="../bsw/Rba_MemLib/src/rba_MemLib_Random.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/Rba_MemLib/src/rba_MemLib_TimerUs.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/integration/Memmap/Bsw_MemMap.h" />
+		<Unit filename="../bsw/integration/Platform_Types.h" />
+		<Unit filename="../bsw/integration/Platform_Types_Cfg.h" />
+		<Unit filename="../bsw/integration/SchM/SchM.h" />
+		<Unit filename="../bsw/integration/SchM_Default.h" />
+		<Unit filename="../bsw/integration/Std_Types.h" />
+		<Unit filename="../bsw/integration/rba_BswSrv/api/rba_BswSrv.h" />
+		<Unit filename="../bsw/integration/rba_BswSrv/api/rba_BswSrv_Cfg.h" />
+		<Unit filename="../bsw/integration/rba_BswSrv/api/rba_BswSrv_MemMap.h" />
+		<Unit filename="../bsw/integration/rba_BswSrv/src/rba_BswSrv_MemCompare.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/integration/rba_BswSrv/src/rba_BswSrv_MemCopy.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../bsw/integration/rba_BswSrv/src/rba_BswSrv_MemSet.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../integration/Can_MemMap.h" />
+		<Unit filename="../integration/Compiler.h" />
+		<Unit filename="../integration/Compiler_Cfg.h" />
+		<Unit filename="../integration/Fls_MemMap.h" />
+		<Unit filename="../integration/Mcu_Cbk.h" />
+		<Unit filename="../integration/Mcu_MemMap.h" />
+		<Unit filename="../integration/NvM_Multiblock_Integration.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../integration/NvM_Multiblock_Integration.h" />
+		<Unit filename="../integration/OsHooks.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../integration/Os_Compiler_Cfg.h" />
+		<Unit filename="../integration/Os_MemMap.h" />
+		<Unit filename="../integration/Rte_MemMap.h" />
+		<Unit filename="../integration/Rte_UserCfg.h" />
+		<Unit filename="../integration/Stubs/Dcm.h" />
+		<Unit filename="../integration/Stubs/Dem.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../integration/Stubs/Dem.h" />
+		<Unit filename="../integration/VirtualECU.cpp" />
+		<Unit filename="../integration/main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mcal/BOACan.cpp" />
+		<Unit filename="../mcal/Can.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mcal/Can.h" />
+		<Unit filename="../mcal/Can_Cfg.h" />
+		<Unit filename="../mcal/Can_Device.cpp" />
+		<Unit filename="../mcal/Can_Device.hpp" />
+		<Unit filename="../mcal/Can_HwProvider.cpp" />
+		<Unit filename="../mcal/Can_HwProvider.hpp" />
+		<Unit filename="../mcal/Can_HwProviderTypes.h" />
+		<Unit filename="../mcal/Can_Implementation.cpp" />
+		<Unit filename="../mcal/Can_Implementation.h" />
+		<Unit filename="../mcal/Can_Irq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mcal/Can_Lcfg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mcal/Can_PBcfg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mcal/Fls.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mcal/Fls.h" />
+		<Unit filename="../mcal/Fls_Cfg.h" />
+		<Unit filename="../mcal/Fls_Device.cpp" />
+		<Unit filename="../mcal/Fls_Device.h" />
+		<Unit filename="../mcal/Fls_Implementation.cpp" />
+		<Unit filename="../mcal/Fls_Implementation.h" />
+		<Unit filename="../mcal/Fls_Internal.h" />
+		<Unit filename="../mcal/Fls_Lcfg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mcal/Fls_PBcfg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mcal/Fls_VirtualHw.cpp" />
+		<Unit filename="../mcal/Fls_VirtualHw.h" />
+		<Unit filename="../mcal/MCalHwProviderSupport.hpp" />
+		<Unit filename="../mcal/MCalLogging.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mcal/MCalLogging.h" />
+		<Unit filename="../mcal/Mcu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mcal/Mcu.h" />
+		<Unit filename="../mcal/Mcu_Cfg.h" />
+		<Unit filename="../mcal/Mcu_Device.cpp" />
+		<Unit filename="../mcal/Mcu_Device.hpp" />
+		<Unit filename="../mcal/Mcu_Implementation.cpp" />
+		<Unit filename="../mcal/Mcu_Implementation.h" />
+		<Unit filename="../mcal/Mcu_Internal.h" />
+		<Unit filename="../mcal/Mcu_Irq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mcal/Mcu_Lcfg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mcal/Mcu_PBcfg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mcal/NonVolatileStore.cpp" />
+		<Unit filename="../mcal/NonVolatileStore.h" />
+		<Unit filename="../mcal/VirtualCan.cpp" />
+		<Unit filename="../os/Os.h" />
+		<Unit filename="../os/Os_Cfg.h" />
+		<Unit filename="../os/Os_DisableInterrupts.h" />
+		<Unit filename="../os/virtualDevice.hpp" />
+		<Unit filename="../os/vrtaCore.h" />
+		<Unit filename="../os/vrtaDevice.h" />
+		<Unit filename="../os/vrtaIdleHandling.hpp" />
+		<Unit filename="../os/vrtaLoggerDevice.h" />
+		<Unit filename="../os/vrtaSampleDevices.h" />
+		<Unit filename="../os/vrtaStdDevices.h" />
+		<Unit filename="../os/vrtaSystemClock.hpp" />
+		<Unit filename="../os/vrtaTypes.h" />
+		<Unit filename="../os/vrtaVM.h" />
+		<Unit filename="../rte/BswM_MemMap.h" />
+		<Unit filename="../rte/ComM_MemMap.h" />
+		<Unit filename="../rte/ComSWC_MemMap.h" />
+		<Unit filename="../rte/DlnStMgr_MemMap.h" />
+		<Unit filename="../rte/DrvrItp_MemMap.h" />
+		<Unit filename="../rte/EcuM_MemMap.h" />
+		<Unit filename="../rte/EgyTqLimr_MemMap.h" />
+		<Unit filename="../rte/EmTqFil_MemMap.h" />
+		<Unit filename="../rte/MemSWC_MemMap.h" />
+		<Unit filename="../rte/NvM_MemMap.h" />
+		<Unit filename="../rte/ParkSWC_MemMap.h" />
+		<Unit filename="../rte/Rte.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../rte/Rte.h" />
+		<Unit filename="../rte/Rte_BswM.h" />
+		<Unit filename="../rte/Rte_BswM_Type.h" />
+		<Unit filename="../rte/Rte_Cbk.h" />
+		<Unit filename="../rte/Rte_Cfg.h" />
+		<Unit filename="../rte/Rte_ComM.h" />
+		<Unit filename="../rte/Rte_ComM_Type.h" />
+		<Unit filename="../rte/Rte_ComSWC.h" />
+		<Unit filename="../rte/Rte_ComSWC_Type.h" />
+		<Unit filename="../rte/Rte_Const.h" />
+		<Unit filename="../rte/Rte_DataHandleType.h" />
+		<Unit filename="../rte/Rte_DlnStMgr.h" />
+		<Unit filename="../rte/Rte_DlnStMgr_Type.h" />
+		<Unit filename="../rte/Rte_DrvrItp.h" />
+		<Unit filename="../rte/Rte_DrvrItp_Type.h" />
+		<Unit filename="../rte/Rte_EcuM.h" />
+		<Unit filename="../rte/Rte_EcuM_Type.h" />
+		<Unit filename="../rte/Rte_EgyTqLimr.h" />
+		<Unit filename="../rte/Rte_EgyTqLimr_Type.h" />
+		<Unit filename="../rte/Rte_EmTqFil.h" />
+		<Unit filename="../rte/Rte_EmTqFil_Type.h" />
+		<Unit filename="../rte/Rte_Hook.h" />
+		<Unit filename="../rte/Rte_Intl.h" />
+		<Unit filename="../rte/Rte_Lib.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../rte/Rte_Main.h" />
+		<Unit filename="../rte/Rte_MemSWC.h" />
+		<Unit filename="../rte/Rte_MemSWC_Type.h" />
+		<Unit filename="../rte/Rte_NvM.h" />
+		<Unit filename="../rte/Rte_NvM_Type.h" />
+		<Unit filename="../rte/Rte_Os_Type.h" />
+		<Unit filename="../rte/Rte_ParkSWC.h" />
+		<Unit filename="../rte/Rte_ParkSWC_Type.h" />
+		<Unit filename="../rte/Rte_SystemSWC.h" />
+		<Unit filename="../rte/Rte_SystemSWC_Type.h" />
+		<Unit filename="../rte/Rte_TqSplt.h" />
+		<Unit filename="../rte/Rte_TqSplt_Type.h" />
+		<Unit filename="../rte/Rte_Type.h" />
+		<Unit filename="../rte/Rte_VehMtnInp.h" />
+		<Unit filename="../rte/Rte_VehMtnInp_Type.h" />
+		<Unit filename="../rte/SchM_BswM.h" />
+		<Unit filename="../rte/SchM_BswM_Type.h" />
+		<Unit filename="../rte/SchM_Can.h" />
+		<Unit filename="../rte/SchM_CanIf.h" />
+		<Unit filename="../rte/SchM_CanIf_Type.h" />
+		<Unit filename="../rte/SchM_CanSM.h" />
+		<Unit filename="../rte/SchM_CanSM_Type.h" />
+		<Unit filename="../rte/SchM_Can_Type.h" />
+		<Unit filename="../rte/SchM_Com.h" />
+		<Unit filename="../rte/SchM_ComM.h" />
+		<Unit filename="../rte/SchM_ComM_Type.h" />
+		<Unit filename="../rte/SchM_Com_Type.h" />
+		<Unit filename="../rte/SchM_EcuM.h" />
+		<Unit filename="../rte/SchM_EcuM_Type.h" />
+		<Unit filename="../rte/SchM_IpduM.h" />
+		<Unit filename="../rte/SchM_IpduM_Type.h" />
+		<Unit filename="../rte/SchM_MemIf.h" />
+		<Unit filename="../rte/SchM_MemIf_Type.h" />
+		<Unit filename="../rte/SchM_NvM.h" />
+		<Unit filename="../rte/SchM_NvM_Type.h" />
+		<Unit filename="../rte/SchM_PduR.h" />
+		<Unit filename="../rte/SchM_PduR_Type.h" />
+		<Unit filename="../rte/SystemSWC_MemMap.h" />
+		<Unit filename="../rte/TqSplt_MemMap.h" />
+		<Unit filename="../rte/VehMtnInp_MemMap.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
